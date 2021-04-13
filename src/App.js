@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Coordinators from './components/Coordinators';
+import Courses from './components/Courses';
+import Faculty from './components/Faculty';
+import Faq from './components/Faq';
+import Message from './components/Message';
+import Recruiters from './components/Recruiters';
+import StudentProfile from './components/StudentProfile';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App=()=>{
+    return(
+      <>
+        <Header/>
+        <Router>
+            <Route path="/" exact component={Home}/>
+            <Route path="/about" exact component={About}/>
+            <Route path="/contact" exact component={Contact}/>
+            <Route path="/coordinators" exact component={Coordinators}/>
+            <Route path="/courses" exact component={Courses}/>
+            <Route path="/faculty" exact component={Faculty}/>
+            <Route path="/faq" exact component={Faq}/>
+            <Route path="/message" exact component={Message}/>
+            <Route path="/recruiters" exact component={Recruiters}/>
+            <Route path="/profile" exact component={StudentProfile}/>
+        </Router>
+        <Footer/>
+      </>
+    )
+};
 
 export default App;
