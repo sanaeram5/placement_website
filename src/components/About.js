@@ -15,7 +15,7 @@ function About() {
             <h3>Computer Science</h3>
           </div>
         </Col>
-
+slsafklaskg jkad vasfafklasmf a.js 
         <Col xs="9">
           <h2>Department of Computer Science</h2>
           <br/>
