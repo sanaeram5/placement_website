@@ -5,10 +5,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 // import Css file
 import "./About.css";
+import Header from "..//components/Header";
 
 function About() {
   return (
+    <div>    
+      <Header/>
     <Container>
+      
       <Row>
         <Col xs="3">
           <div className="C-left">
@@ -64,6 +68,7 @@ function About() {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

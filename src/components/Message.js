@@ -14,22 +14,22 @@ const Message=()=> {
       <div className="content">
         <div className="upper-block">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 col-xs-3">
 
               <div className="panel panel-primary sidebar">
               
                 <div className="panel-body no-padding">
                   <div className="list-group scroll">
                     <div id="faculty" >
-                    <a className="sublist list-group-item no-vertical-border" href="#suri">Dr. Rihan Khan Suri | University Placement Officer</a>
-                      <a className="sublist list-group-item no-vertical-border" href="#quadri">Dr. S. M. K. Quadri | Professor &amp; Head</a>
+                    <a className="sublist list-group-item no-vertical-border" href="#suri"><strong>Dr. Rihan Khan Suri </strong>| University Placement Officer</a>
+                      <a className="sublist list-group-item no-vertical-border" href="#quadri"><strong>Dr. S. M. K. Quadri </strong>| Professor &amp; Head</a>
                      
                      </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-9">
+            <div className="col-md-9 col-xs-9">
               <br/>
               <br/>
             <div id="suri">

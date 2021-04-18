@@ -47,7 +47,7 @@ const Header = () => {
                   activeClassName="menu_active"
                   className="nav-link"
                   data-toggle="collapse" data-target=".navbar-collapse.show"
-                  to="#"
+                  to="/about"
                 >
                   About Us
                 </NavLink>
@@ -58,7 +58,7 @@ const Header = () => {
                   activeClassName="menu_active"
                   className="nav-link"
                   data-toggle="collapse" data-target=".navbar-collapse.show"
-                  to="#"
+                  to="/message"
                 >
                   Message
                 </NavLink>
