@@ -17,7 +17,7 @@ function About() {
         </Col>
         <Col xs="9">
           <h2>Department of Computer Science</h2>
-          <br/
+          <br/>
           <p>
             The Department of Computer Science is one of the youngest
             constituents units of the Faculty of Natural Sciences. It was

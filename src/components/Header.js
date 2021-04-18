@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, BrowserRouter as Router,Route} from "react-router-dom";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 // import {Link} from 'react-scroll';
 import { NavDropdown } from "react-bootstrap";
 import "./Header.css";
+import Home from '../components/Home'
+import About from '../components/About'
 
 const Header = () => {
   return (

@@ -1,70 +1,105 @@
 import React from "react";
 // Bootstrap Components
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-// import Css file
+import Header from './Header'
+//import Css file
 import "./Message.css";
+import image_suri from '../images/rsuri.jpg'
+import image_quadri from '../images/squadri.jpg'
 
 const Message=()=> {
   return (
-    <Container>
-      <Row>
-        <Col xs="3">
-          <div className="C-left">
-            <h3>Computer Science</h3>
-          </div>
-        </Col>
-slsafklaskg jkad vasfafklasmf a.js 
-        <Col xs="9">
-          <h2>Department of Computer Science</h2>
-          <br/>
-          <p>
-            The Department of Computer Science is one of the youngest
-            constituents units of the Faculty of Natural Sciences. It was
-            established in the year 1999 with the objective of producing IT
-            professionals of international standard and to primary fulfill
-            requirements of booming IT industry and develop researchers. The
-            Department offers three postgraduate programs including the regular
-            programs MCA and PGDCA, and a self-financed evening program M.Sc.
-            (Bioinformatics). In addition, it supports the execution of an
-            undergraduate program B.Sc. in terms of teaching of Computer Science
-            as a subject.
-          </p>
+    <div>
+          <Header/>
 
-          <p>
-            The Department, with the current faculty strength of a Professor,
-            one Associate Professor, one Reader and ten Assistant Professors
-            sufficiently caters to its requisite teaching and research
-            requirements. Moreover, in order to cater to the requirements of
-            interdisciplinary courses, guest teachers from institutes such as
-            IIT Delhi, AIIMS, National Institute of Immunology, Jamia Hamdard
-            University are regularly invited, as per requirements.
-          </p>
-          <p>
-            The Department has two modern air-conditioned computing labs, an
-            air-conditioned seminar room, a departmental library, four class
-            rooms and adequate offices for staff members. The Department has
-            also one air-conditioned Research Laboratory for research scholars
-            in the Department. The whole Department is connected through a LAN
-            in order to provide modern teaching and learning environment and
-            fast access to the Internet. In addition, the Department has Wi-Fi
-            connectivity. The LAN caters to many important computing needs of
-            the Department such as compilers of the popular programming
-            languages, RDBMS software (Oracle, SQL server), communication
-            facility and Internet facility. All the labs, the seminar room,
-            office are connected through LAN. There is one Itanium Server with
-            WIN 2003 OS in the lab. One Plasma Screen is installed in the
-            Laboratory to demonstrate practical works to the students.
-          </p>
-          <p>
-            The Department of Computer Science is an exciting place in which the
-            faculty is friendly, well qualified and able to provide a supportive
-            environment for students to study.
-          </p>
-        </Col>
-      </Row>
-    </Container>
+      <div className="content">
+        <div className="upper-block">
+          <div className="row">
+            <div className="col-md-3">
+
+              <div className="panel panel-primary sidebar">
+              
+                <div className="panel-body no-padding">
+                  <div className="list-group scroll">
+                    <div id="faculty" >
+                    <a className="sublist list-group-item no-vertical-border" href="#suri">Dr. Rihan Khan Suri | University Placement Officer</a>
+                      <a className="sublist list-group-item no-vertical-border" href="#quadri">Dr. S. M. K. Quadri | Professor &amp; Head</a>
+                     
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-9">
+              <br/>
+              <br/>
+            <div id="suri">
+              
+              <img src={image_suri} className="faculty" alt=""/>
+              <h3><strong>Dr. Rihan Khan Suri</strong></h3>
+              <h4><strong>University Placement Officer</strong></h4><br/>
+              <p>
+                <strong>E-mail</strong> : rsuri@jmi.ac.in<br/>
+                <strong>Mobile</strong> : +91-991-003-6980<br/>
+              </p><br/>
+              <strong>Message</strong>
+                <p>The Indian Economy continues to record appreciable growth in all the sectors, resulting in tremendous
+                demand for skilled personnel. In addition to the traditional avenues of employment in public and private
+                sectors, there is now an increasing demand from the growing corporate sector for well trained and skilled
+                human personnel. Jamia Millia Islamia has always harnessed and developed the intrinsic talent and potential
+                of all its students. Besides our commitment to academic excellence, it also provides ample opportunities to
+                students to excel in field of sports and extra-curricular activities. Students are academically competent with a
+                wide vision of life and an inquisitive mind which helps them explore new frontiers of knowledge.
+                  </p>
+              <p>It is indeed a matter of great pride to invite you to participate in our campus recruitment process. Since its
+                  inception, Jamia Millia Islamia has always been conscious of its responsibility to the nation. With its stringent selection procedure, it selects the best students from all over India. Three years of rigorous course curriculum and numerous extra-curricular activities shape the personality of our students and what we get after this span of time at the university are intelligent, sensitive human beings aware of both their responsibilities and right.</p>
+           <hr></hr>
+           <br></br>
+            <div id="quadri">
+              <img src={image_quadri} className="faculty" alt=""/>
+              <h3><strong>Dr. S. M. K. Quadri</strong></h3>
+              <h4><strong>Professor &amp; HOD</strong></h4><br/>
+              <p>
+                <strong>Education</strong> : M. Tech., Ph. D. (Computer Science)<br/>
+                <strong>E-mail</strong> : quadrismk@jmi.ac.in(Primary)<br/>
+                <strong>E-mail</strong> : quadrismk@hotmail.com  (Secondary)<br/>
+                <strong>Research Area of Interest: </strong>: Software Engineering, Software Reliability Engineering<br/>
+              </p><br/>
+              <strong>Brief Background</strong>:
+              <p>
+                <strong> Topics of P.hD :</strong><br/><br/>
+                A study of Software Reliability Growth Models Considering Optimal Software Release Policies and Hardware Reliability Theory.
+              </p><br/>
+              <p>
+                <strong>Topic of M. Tech Dissertation:</strong> <br/><br/>
+                Development of Budgetary Information system Related to Fund Allocation and Expenditure for a university
+              </p><br/>
+              <p>
+                <strong>Publications:</strong> <br/><br/>
+                129 Papers, 05 Book Chapters and 04 Books have been published; please see annexure-I, II &amp; III.
+              </p>
+              <strong>Message</strong>
+                <p>The Indian Economy is being considered as one of the fastest growing and emerging economies in recent times.
+                  The major reason behind the same is its strength in human resources. Being the second most populated country in the world, India can gain greater development if it handles its human resources appropriately both by government as well as individuals and institutions. And one such measure is the provision of qualitative education of highest standard from any measurable angle.</p>
+                  <p>Qualitative higher and technical education holds an edge in transforming human beings into human capital and
+                      human resource. Institutions of higher learning such Central University Jamia Millia Islamia is committed to the task
+                      of reducing/bridging this gap.</p>
+                      <p>In this endeavor, Department of Computer Science of Jamia Millia Islamia has enriched its programmes through
+                      complete overhauling of course structure, syllabus updated with contemporary requirements of the universities,
+                      institutions and industry. We have a strong placement team with experienced senior professor heading, to guide
+                      the talented and enthusiast youth by providing direction in order to attain right placements which smoothens life’s
+                      journey for self and future generations.</p>
+                      <p>The department boasts of availability of the state of the art infrastructure as well as highly motivated and qualified faculty members and staff to guide the youth, which in turn has also been reflected in the overall performance
+                      of the students.</p>
+                      <p>I, personally, take pleasure in inviting industries to take the opportunity of availing the best of the brains for individual as well corporate and, thereby, being a part of national development.</p>
+          
+                </div>       
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+  
   );
 }
 
