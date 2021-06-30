@@ -1,21 +1,35 @@
-import image_suri from '../images/rsuri.jpg'
-import image_quadri from '../images/squadri.jpg'
+import image_quadri from '../images/dr_quadri.jpg'
+import image_rizvi from '../images/dr_rizvi.jpg'
+import image_monica from '../images/dr_monica.jpg'
 
+import image_kmustafa from '../images/dr_kmustafa.jpg'
+import image_abulaish from '../images/dr_abulaish.jpg'
+import image_rafat from '../images/Dr_Rafat_Praveen.jpg'
+
+import image_zeeshan from '../images/dr_zeeshan.jpg'
+import image_nazir from '../images/dr_nazir.jpg'
+import image_rajendra from '../images/Dr__Rajendra.jpg'
+
+import image_Suraiya from '../images/Dr_Suraiya.jpg'
+import image_mansaf from '../images/Dr_Mansaf.jpg'
+import image_jahir from '../images/Jahir_sir.jpg'
+
+import image_taran from '../images/dr_taran.jpg'
+import image_khalid from '../images/dr_khalid.jpg'
 export default [
+
         {   "id":"1",
-            "fullname":"Dr. Rihan Khan Suri",
-            "designation":"University Placement Officer",
-            "email":"rsuri@jmi.ac.in",
-            "mobile":"Mobile : +91-991-003-6980",
-            "message":"The Indian Economy continues to record appreciable growth in all the sectors, resulting in tremendous demand for skilled personnel. In addition to the traditional avenues of employment in public and private sectors, there is now an increasing demand from the growing corporate sector for well trained and skilled human personnel. Jamia Millia Islamia has always harnessed and developed the intrinsic talent and potential of all its students. Besides our commitment to academic excellence, it also provides ample opportunities to students to excel in field of sports and extra-curricular activities. Students are academically competent with a wide vision of life and an inquisitive mind which helps them explore new frontiers of knowledge. It is indeed a matter of great pride to invite you to participate in our campus recruitment process. Since its inception, Jamia Millia Islamia has always been conscious of its responsibility to the nation. With its stringent selection procedure, it selects the best students from all over India. Three years of rigorous course curriculum and numerous extra-curricular activities shape the personality of our students and what we get after this span of time at the university are intelligent, sensitive human beings aware of both their responsibilities and right.",
-            "image":image_suri
-        },
-        {   "id":"2",
-            "fullname":"Dr. S. M. K. Quadri",
-            "designation":"Professor HOD",
-            "email":"rsuri@jmi.ac.in",
-            "mobile":"Mobile : +91-1234546875",
-            "message":"The Indian Economy continues to record appreciable growth in all the sectors, resulting in tremendous demand for skilled personnel. In addition to the traditional avenues of employment in public and private sectors, there is now an increasing demand from the growing corporate sector for well trained and skilled human personnel. Jamia Millia Islamia has always harnessed and developed the intrinsic talent and potential of all its students. Besides our commitment to academic excellence, it also provides ample opportunities to students to excel in field of sports and extra-curricular activities. Students are academically competent with a wide vision of life and an inquisitive mind which helps them explore new frontiers of knowledge. It is indeed a matter of great pride to invite you to participate in our campus recruitment process. Since its inception, Jamia Millia Islamia has always been conscious of its responsibility to the nation. With its stringent selection procedure, it selects the best students from all over India. Three years of rigorous course curriculum and numerous extra-curricular activities shape the personality of our students and what we get after this span of time at the university are intelligent, sensitive human beings aware of both their responsibilities and right.",
+            "faculty-name":"DR. SMK QUADRI",
+            "faculty-designation":"Professor and Head of Department (M.Tech, PhD)",
+            "faculty-exp":"Year of Experience: 29",
+            "special-in":"Software Reliability engineering,Software testing and Software engineering",
             "image":image_quadri
+        },
+        {   "id":"1",
+            "faculty-name":"DR. Syed Afzal Murtaza Rizvi",
+            "faculty-designation":"Professor (MSc, PhD)",
+            "faculty-exp":"Years of Experience: 30+",
+            "special-in":"Software Engineering, Automation,Algorithms and Bio-Informatics",
+            "image":image_rizvi        
         }
     ];

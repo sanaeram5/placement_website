@@ -1,6 +1,7 @@
 import React from 'react';
-import Myloop from './images';
+import Myloop from './Images';
 import './Recruiters.css'
+//import past2020 from "../web_design/past_placement/"
 
 
 class Recruiters extends React.Component{
@@ -21,8 +22,13 @@ class Recruiters extends React.Component{
                 <div className="companies-photos">
                 <Myloop/>
                 </div>
-
-
+                <div className="container-past">
+                    <div className="past-placements">
+                        <p>❖</p>
+                        <p>OUR PAST PLACEMENTS</p>
+                        <p>❖</p>
+                    </div>
+                </div>
             </div>
         );
     }

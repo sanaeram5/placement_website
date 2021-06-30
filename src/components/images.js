@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import images from "./images.css"
+import './Images.css'
 
 // const images=[
 //     {
@@ -7,8 +7,6 @@ import images from "./images.css"
 //         {id:i,src:""}
 //     }
 // ];
-
-
 
 
 class Myloop extends Component {
@@ -36,7 +34,7 @@ class Myloop extends Component {
                 console.log(image.default);
                 
               return <div className="column">
-                <img style={{height:"100px",width:"180px",padding:"20px"}}src={image.default} key={index} alt="info"></img>
+                <img style={{height:"auto",width:"160px"}} src={image.default} key={index} alt="info"></img>
                 </div>
   })}
       </div>
