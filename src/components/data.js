@@ -16,20 +16,24 @@ import image_jahir from '../images/Jahir_sir.jpg'
 
 import image_taran from '../images/dr_taran.jpg'
 import image_khalid from '../images/dr_khalid.jpg'
-export default [
+export default {
+    
 
-        {   "id":"1",
+      "faculty": [{   
             "faculty-name":"DR. SMK QUADRI",
             "faculty-designation":"Professor and Head of Department (M.Tech, PhD)",
             "faculty-exp":"Year of Experience: 29",
             "special-in":"Software Reliability engineering,Software testing and Software engineering",
             "image":image_quadri
         },
-        {   "id":"1",
+        {   
             "faculty-name":"DR. Syed Afzal Murtaza Rizvi",
             "faculty-designation":"Professor (MSc, PhD)",
             "faculty-exp":"Years of Experience: 30+",
             "special-in":"Software Engineering, Automation,Algorithms and Bio-Informatics",
             "image":image_rizvi        
-        }
-    ];
+        }],
+
+        "past":[{}]
+
+};

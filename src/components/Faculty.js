@@ -15,7 +15,7 @@ class Faculty extends React.Component {
             {Data.map(res=>(
            <div className="col-4">
             <div class="card m-2 faculty-card">
-                <img src={res.image} className="faculty-img rounded-circle" alt=""/>
+                <img src={res.faculty.image} className="faculty-img rounded-circle" alt=""/>
                 <div className="card-body">
                 <div className="faculty-name">{res["faculty-name"]}</div>
                 <div className="faculty-designation">{res["faculty-designation"]}</div>

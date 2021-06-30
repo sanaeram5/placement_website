@@ -29,6 +29,10 @@ class Recruiters extends React.Component{
                         <p>❖</p>
                     </div>
                 </div>
+
+                <div>
+                    
+                </div>
             </div>
         );
     }
