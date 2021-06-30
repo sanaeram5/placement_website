@@ -1,6 +1,6 @@
 import React from "react";
 import "./Faculty.css";
-import Data from "./Data";
+import Data from "./data";
 import Header from "./Header";
 
 class Faculty extends React.Component {

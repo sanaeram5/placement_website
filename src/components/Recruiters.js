@@ -1,5 +1,5 @@
 import React from 'react';
-import Myloop from './Images';
+import Myloop from './images';
 import './Recruiters.css'
 //import past2020 from "../web_design/past_placement/"
 
