@@ -1,10 +1,11 @@
 .row {
     display: flex;
+    justify-content: space-between;
   }
   
 .column {
     flex: 20%;
-    padding: 10px;
-    margin:auto;    
+    margin: auto;
+    display: block;
   }
 

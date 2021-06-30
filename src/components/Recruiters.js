@@ -1,8 +1,7 @@
 import React from 'react';
 import Myloop from './images';
 import './Recruiters.css'
-//import past2020 from "../web_design/past_placement/"
-
+import data from './data'
 
 class Recruiters extends React.Component{
     constructor(props){
@@ -29,10 +28,15 @@ class Recruiters extends React.Component{
                         <p>❖</p>
                     </div>
                 </div>
+                {/* {data.past.map(res=>(
+                <div className="past-placements-visuals">
 
-                <div>
-                    
+                    <div>{res.pie}</div>
+                    <div>{res.graph}</div> 
+
+
                 </div>
+                ))} */}
             </div>
         );
     }

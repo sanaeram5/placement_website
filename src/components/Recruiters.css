@@ -59,4 +59,10 @@ SHADOW : X: 0 , Y: 20 , B:50 */
 
 }
 
+.past-placements-visuals{
+    display: flex;
+    justify-content:space-between ;
+    border:1px;
+    background-image:linear-gradient(#0079A5, #143D61);
+}
 

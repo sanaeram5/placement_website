@@ -16,24 +16,129 @@ import image_jahir from '../images/Jahir_sir.jpg'
 
 import image_taran from '../images/dr_taran.jpg'
 import image_khalid from '../images/dr_khalid.jpg'
+import pie21 from '../web_design/past_placement/Prev year stats/pie21.png'
+import pie20 from '../web_design/past_placement/Prev year stats/pie20.png'
+import pie19 from '../web_design/past_placement/Prev year stats/pie19.png'
+import graph21 from '../web_design/past_placement/Prev year stats/graph21.png'
+import graph20 from '../web_design/past_placement/Prev year stats/graph20.png'
+import graph19 from '../web_design/past_placement/Prev year stats/graph19.png'
+
 export default {
     
 
-      "faculty": [{   
-            "faculty-name":"DR. SMK QUADRI",
-            "faculty-designation":"Professor and Head of Department (M.Tech, PhD)",
-            "faculty-exp":"Year of Experience: 29",
-            "special-in":"Software Reliability engineering,Software testing and Software engineering",
-            "image":image_quadri
-        },
-        {   
-            "faculty-name":"DR. Syed Afzal Murtaza Rizvi",
-            "faculty-designation":"Professor (MSc, PhD)",
-            "faculty-exp":"Years of Experience: 30+",
-            "special-in":"Software Engineering, Automation,Algorithms and Bio-Informatics",
-            "image":image_rizvi        
-        }],
+    "faculty": [{   
+                    "faculty-name":"DR. SMK QUADRI",
+                    "faculty-designation":"Professor and Head of Department (M.Tech, PhD)",
+                    "faculty-exp":"Year of Experience: 29",
+                    "special-in":"Software Reliability engineering,Software testing and Software engineering",
+                    "image":image_quadri
+                },
+                {   
+                    "faculty-name":"DR. Syed Afzal Murtaza Rizvi",
+                    "faculty-designation":"Professor (MSc, PhD)",
+                    "faculty-exp":"Years of Experience: 30+",
+                    "special-in":"Software Engineering, Automation,Algorithms and Bio-Informatics",
+                    "image":image_rizvi        
+                },
+                {   "faculty-name":"DR. Monica Mehrotra",
+                "faculty-designation":"Professor (MCA, PhD)",
+                "faculty-exp":"Years of Experience: 23",
+                "special-in":"Data Mining, Social Network Analysis and Information Retrieval",
+                "image":image_monica        
+            },
+            {   "faculty-name":"DR. KHURRAM MUSTAFA",
+                "faculty-designation":"Professor (MSc, M.Tech, PhD)",
+                "faculty-exp":"Years of Experience: 20",
+                "special-in":"E-Learning,Software Engineering and Software Security",
+                "image":image_kmustafa        
+            },
+            {   "faculty-name":"DR. MOHAMMAD ABULAISH",
+                "faculty-designation":"Professor (MCA, PhD)",
+                "faculty-exp":"Years of Experience: 20",
+                "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
+                "image":image_abulaish       
+            },
+            {   "faculty-name":"DR. Rafat Parveen",
+                "faculty-designation":"Associate Professor (MTech, PhD)",
+                "faculty-exp":"Years of Experience: 18",
+                "special-in":"Bio-Informatics - System Biology and Computional Biology, Computer Networks.",
+                "image":image_rafat     
+            },
+            {   "faculty-name":"DR. Syed Zeeshan Husain",
+            "faculty-designation":"Associate Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 17",
+            "special-in":"Computer Networks and Security.",
+            "image":image_zeeshan      
+            },
+            {   "faculty-name":"DR. Mohammad Nazir",
+            "faculty-designation":"Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 20",
+            "special-in":"Software Engineering,Software Security and Software Quality Assurance",
+            "image":image_nazir       
+            },
+            {   "faculty-name":"DR. Rajendra Kumar",
+            "faculty-designation":"Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 16",
+            "special-in":"Information Security, Network Security,WebApp Security and Data Analytics.",
+            "image":image_rajendra      
+            },
+            {   "faculty-name":"DR. Suraiya Jabin",
+            "faculty-designation":"Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 15",
+            "special-in":"Artificial Intelligence, Soft Computing,Biometrics, Computational Biology and Pattern Recognition.",
+            "image":image_Suraiya     
+            },
+            {   "faculty-name":"DR. Mansaf Alam",
+            "faculty-designation":"Associate Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 15",
+            "special-in":"Big Data Analytics and Cloud Computing",
+            "image":image_mansaf       
+            },
+            {   "faculty-name":"DR. Jahiruddin",
+            "faculty-designation":"Associate Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 14",
+            "special-in":"Text Mining and Social Network Analysis.",
+            "image":image_jahir       
+            },
+            {   "faculty-name":"DR. Taran Singh Bharti",
+            "faculty-designation":"Assistant Professor (MCA, MTech, UGC-JRF)",
+            "faculty-exp":"Years of Experience: 9",
+            "special-in":"Security, Algorithms, Database, Theory of Computation and Distributed Computing",
+            "image":image_taran      
+            },
+            {   "faculty-name":"DR. Khalid Raza",
+            "faculty-designation":"Associate Professor (MCA, MPhil, UGC-JRF, PhD)",
+            "faculty-exp":"Years of Experience: 8",
+            "special-in":"Soft Computing Techniques, Computational Biology and Machine Learning",
+            "image":image_khalid       
+            },
+            {   "faculty-name":"DR. MOHAMMAD ABULAISH",
+            "faculty-designation":"Professor (MCA, PhD)",
+            "faculty-exp":"Years of Experience: 20",
+            "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
+            "image":image_abulaish       
+            },
+        
+    ],
 
-        "past":[{}]
+    "past":     [{
+                    "year":"2021",
+                    "pie":pie21,
+                    "graph":graph21
+
+                },
+                {
+                    "year":"2020",
+                    "pie":pie20,
+                    "graph":graph20
+        
+                },
+                {
+                    "year":"2019",
+                    "pie":pie19,
+                    "graph":graph19
+        
+                }
+            ]
 
 };
