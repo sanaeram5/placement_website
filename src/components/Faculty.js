@@ -32,7 +32,7 @@ class Faculty extends React.Component {
       </div>
     </div>
 
-  );
-};
+  )
+}
 }
 export default Faculty;
