@@ -31,10 +31,9 @@ class Myloop extends Component {
     return (
       <div className="row">
             {this.state.listOfImages.map((image, index) => {
-                console.log(image.default);
                 
               return <div className="column">
-                <img style={{height:"auto",width:"160px"}} src={image.default} key={index} alt="info"></img>
+                <img style={{height:"auto",width:"160px",display:"block"}} src={image.default} key={index} alt="info"></img>
                 </div>
   })}
       </div>

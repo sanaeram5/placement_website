@@ -21,22 +21,24 @@ class Recruiters extends React.Component{
                 <div className="companies-photos">
                 <Myloop/>
                 </div>
-                <div className="container-past">
+                <div>
+                    <div className="container-past">
                     <div className="past-placements">
                         <p>❖</p>
                         <p>OUR PAST PLACEMENTS</p>
                         <p>❖</p>
                     </div>
                 </div>
-                {/* {data.past.map(res=>(
+                {data.past.map(res=>(
                 <div className="past-placements-visuals">
-
-                    <div>{res.pie}</div>
-                    <div>{res.graph}</div> 
+                        {console.log(res)}
+                    <img style={{width:"200px"}} src={res.pie}/>
+                    <img style={{width:"200px"}} src={res.graph}/> 
 
 
                 </div>
-                ))} */}
+                ))}
+                </div>
             </div>
         );
     }
