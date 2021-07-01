@@ -16,6 +16,7 @@ import image_jahir from '../images/Jahir_sir.jpg'
 
 import image_taran from '../images/dr_taran.jpg'
 import image_khalid from '../images/dr_khalid.jpg'
+
 import pie21 from '../web_design/past_placement/Prev year stats/pie21.png'
 import pie20 from '../web_design/past_placement/Prev year stats/pie20.png'
 import pie19 from '../web_design/past_placement/Prev year stats/pie19.png'
@@ -129,13 +130,13 @@ export default {
         "special-in":"Soft Computing Techniques, Computational Biology and Machine Learning",
         "image":image_khalid       
         },
-        {   "id":"15",
-        "faculty-name":"DR. MOHAMMAD ABULAISH",
-        "faculty-designation":"Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 20",
-        "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
-        "image":image_abulaish       
-        },
+        // {   "id":"15",
+        // "faculty-name":"DR. MOHAMMAD ABULAISH",
+        // "faculty-designation":"Professor (MCA, PhD)",
+        // "faculty-exp":"Years of Experience: 20",
+        // "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
+        // "image":image_abulaish       
+        // },
 ],
 
     "past":     [{
