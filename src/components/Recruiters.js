@@ -1,17 +1,13 @@
 import React from 'react';
 import Myloop from './images';
-import './Recruiters.css'
-import data from './data'
+import './Recruiters.css';
+import data from './data';
 
 class Recruiters extends React.Component{
-    constructor(props){
-      super(props)
-     // this.state = {active: data[0]?.id}
-    }
     render(){
 
         return(
-            <div>
+            <div className="recruiters-main">
                 <div className="heading">
                     <p>❖</p>
                     <p>PAST RECRUITERS</p>
@@ -29,16 +25,24 @@ class Recruiters extends React.Component{
                         <p>❖</p>
                     </div>
                 </div>
+               
                 {data.past.map(res=>(
-                <div className="past-placements-visuals">
+                    <div>
+                        <div className="past-placements-visuals">
+
+                    
+                    <div className="past-placements-visuals-with-graph">
                         {console.log(res)}
-                    <img style={{width:"200px"}} src={res.pie}/>
-                    <img style={{width:"200px"}} src={res.graph}/> 
+                    <div><img className="graph-and-pie"  src={res.pie}/></div>
+                    <div><p className="past-placements-year"> {res.year}</p></div>
+                    <div><img className="graph-and-pie" style={{width:"100%",height:"auto"}} src={res.graph}/> </div>
+                   </div>
 
-
+                    </div>
                 </div>
                 ))}
                 </div>
+                
             </div>
         );
     }

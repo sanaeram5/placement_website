@@ -17,12 +17,12 @@ import image_jahir from '../images/Jahir_sir.jpg'
 import image_taran from '../images/dr_taran.jpg'
 import image_khalid from '../images/dr_khalid.jpg'
 
-import pie21 from '../web_design/past_placement/Prev year stats/pie21.png'
-import pie20 from '../web_design/past_placement/Prev year stats/pie20.png'
-import pie19 from '../web_design/past_placement/Prev year stats/pie19.png'
-import graph21 from '../web_design/past_placement/Prev year stats/graph21.png'
-import graph20 from '../web_design/past_placement/Prev year stats/graph20.png'
-import graph19 from '../web_design/past_placement/Prev year stats/graph19.png'
+import pie21 from '../web_design/past_placement/2021.png'
+import pie20 from '../web_design/past_placement/2020.png'
+import pie19 from '../web_design/past_placement/2019.png'
+import graph21 from '../web_design/past_placement/2021-bar.png'
+import graph20 from '../web_design/past_placement/2020-bar.png'
+import graph19 from '../web_design/past_placement/2019-bar.png'
 
 export default {
     
