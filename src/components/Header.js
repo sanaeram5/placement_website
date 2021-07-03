@@ -6,6 +6,7 @@ import { NavDropdown } from "react-bootstrap";
 import "./Header.css";
 import Home from '../components/Home'
 import About from '../components/About'
+import StudentProfile from './StudentProfile';
 
 const Header = () => {
   return (
@@ -92,7 +93,7 @@ const Header = () => {
                   activeClassName="menu_active"
                   className="nav-link"
                   data-toggle="collapse" data-target=".navbar-collapse.show"
-                  to="#"
+                  to="/student_profile"
                 >
                   Student Profiles
                 </NavLink>

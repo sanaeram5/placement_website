@@ -16,8 +16,7 @@ import StudentProfile from './components/StudentProfile';
 const App=()=>{
     return(
       <>
-      <Router>
-            <Route path="/" exact component={Home}/>
+      <Router> 
             <Route path="/about" exact component={About}/>
             <Route path="/contact" exact component={Contact}/>
             <Route path="/coordinators" exact component={Coordinators}/>
@@ -26,7 +25,8 @@ const App=()=>{
             <Route path="/faq" exact component={Faq}/>
             <Route path="/message" exact component={Message}/>
             <Route path="/recruiters" exact component={Recruiters}/>
-            <Route path="/profile" exact component={StudentProfile}/>
+            <Route path="/student_profile" exact component={StudentProfile}/>
+            <Route path="/" exact component={Home}/>
         </Router>
 
       </>
