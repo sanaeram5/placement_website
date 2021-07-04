@@ -35,9 +35,9 @@ class Recruiters extends React.Component{
                     
                     <div className="past-placements-visuals-with-graph">
                         {console.log(res)}
-                    <div><img className="graph-and-pie"  src={res.pie}/></div>
+                    <div><img className="graph"  src={res.pie}/></div>
                     <div><p className="past-placements-year"> {res.year}</p></div>
-                    <div><img className="graph-and-pie" style={{width:"100%",height:"auto"}} src={res.graph}/> </div>
+                    <div><img className="pie" src={res.graph}/> </div>
                    </div>
 
                     </div>
