@@ -19,4 +19,5 @@
 }
 .companies-logo:hover{
   transform: scale(2);
+  border-radius: 3px;
 }
