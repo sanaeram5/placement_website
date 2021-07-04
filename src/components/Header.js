@@ -103,7 +103,7 @@ const Header = () => {
                   activeClassName="menu_active"
                   className="nav-link"
                   data-toggle="collapse" data-target=".navbar-collapse.show"
-                  to="#"
+                  to="/coordinators"
                 >
                   Coordinators
                 </NavLink>
