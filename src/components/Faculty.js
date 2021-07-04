@@ -2,21 +2,16 @@ import React from "react";
 import "./Faculty.css";
 import Data from "./data";
 import Header from "./Header";
+import PageHeader from './PageHeader';
 
-class Faculty extends React.Component {
-  render() {
-
-    return (
-      <div>
+const Faculty = () => {
+  return (
+    <div>
         <Header />
         
         <div className="container">
 
-          <header>
-            <p>❖</p>
-            Faculty Profile
-            <p>❖</p>
-          </header>
+          <PageHeader page ="Faculty Profile" />   
           <div className="row my-4">
             {Data.faculty.map(res => (
               <div className="col-md-4 col-sm-6 col-xs-12 my-4">
@@ -52,7 +47,7 @@ class Faculty extends React.Component {
         </div>
       </div>
 
-    )
-  }
+  )
 }
+
 export default Faculty;
