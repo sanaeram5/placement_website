@@ -26,7 +26,7 @@ const App=()=>{
             <Route path="/faq" exact component={Faq}/>
             <Route path="/message" exact component={Message}/>
             <Route path="/recruiters" exact component={Recruiters}/>
-            <Route path="/profile" exact component={StudentProfile}/>
+            <Route path="/student_profile" exact component={StudentProfile}/>
         </Router>
 
       </>
