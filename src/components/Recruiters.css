@@ -1,3 +1,8 @@
+.recruiters-main{
+    overflow-x: hidden;
+    width: 100%;
+   
+}
 .heading{
     margin: 30px auto;
     border: 1px;
@@ -12,9 +17,6 @@
     box-shadow: blur;
 
 
-    /* RADIUS : 18
-TEXT SIZE : 50 PX
-SHADOW : X: 0 , Y: 20 , B:50 */
 }
 
 .heading p{
@@ -46,9 +48,6 @@ SHADOW : X: 0 , Y: 20 , B:50 */
     box-shadow: blur;
 
 
-    /* RADIUS : 18
-TEXT SIZE : 50 PX
-SHADOW : X: 0 , Y: 20 , B:50 */
 }
 
 .container-past{
@@ -72,7 +71,8 @@ SHADOW : X: 0 , Y: 20 , B:50 */
     font-size: 30px;
     color: rgb(1, 1, 78);
     font-weight: bold;
-    /* margin:0 30px; */
+
+    margin:0 30px; 
         
 }
 
@@ -104,7 +104,46 @@ SHADOW : X: 0 , Y: 20 , B:50 */
 .graph:hover, .pie:hover{
     transform: scale(1.5);
     background-image:linear-gradient(#0079A5, #0B0538);
-    /* background-color: black; */
     border-radius: 10px;
 }
 
+@media screen and (max-width: 992px) {
+    .companies-photos{
+        height: 1500px;
+    }
+
+    .past-placements-visuals-with-graph{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;   }
+
+    
+    .graph{
+        
+        align-items: center;
+        width:100%;
+        height:auto;
+        transition: transform .4s;
+    }
+
+    .pie{
+        align-items: center;
+        width:100%;
+        height:auto;
+        transition: transform .4s;
+    }
+    
+.past-placements-year{
+    border:1px black;
+    background-image:linear-gradient(white,rgb(173, 173, 173));
+    border-radius: 20px;
+    font-family:'Arial';
+    font-size: 30px;
+    color: rgb(1, 1, 78);
+    font-weight: bold;
+    margin: 30px;
+        
+}
+
+  }
+  
