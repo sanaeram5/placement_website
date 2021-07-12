@@ -12,11 +12,13 @@ import Faq from './components/Faq';
 import Message from './components/Message';
 import Recruiters from './components/Recruiters';
 import StudentProfile from './components/StudentProfile';
+import Curriculum from './components/Curriculum';
 
 const App=()=>{
     return(
       <>
       <Router>
+        {/* <Header/> */}
             <Route path="/" exact component={Home}/>
             <Route path="/about" exact component={About}/>
             <Route path="/contact" exact component={Contact}/>
@@ -27,6 +29,7 @@ const App=()=>{
             <Route path="/message" exact component={Message}/>
             <Route path="/recruiters" exact component={Recruiters}/>
             <Route path="/student_profile" exact component={StudentProfile}/>
+            <Route path="/curriculum" exact component={Curriculum}/>
         </Router>
 
       </>
