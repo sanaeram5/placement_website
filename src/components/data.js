@@ -25,8 +25,6 @@ import graph20 from '../web_design/past_placement/2020-bar.png'
 import graph19 from '../web_design/past_placement/2019-bar.png'
 
 export default {
-    
-
     "faculty": [{   
                     
                     "id":"1",

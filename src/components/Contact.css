@@ -1,0 +1,48 @@
+.contact__container{
+    background-image: linear-gradient(180deg,#8fcae0, #0079a5);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.faq__container{
+    background-color: #eaf2f8;
+}
+.contact__card{
+    background-color: white;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.faq__card{
+    background-color: white;
+    border-radius: 5%;
+}  
+.contact__form{
+    border-left-color: #0079a5;
+    border-left-width: 5%;
+    border-left-style: solid;
+    background-color: white;
+}
+.top__header{
+    margin-top: 100px;
+    background: linear-gradient(#0079A5, #036588);
+    height: 40px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.top__header:before {
+	content: "";
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	bottom: -14px;
+	left:4%;
+	background-color: #036588;
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
