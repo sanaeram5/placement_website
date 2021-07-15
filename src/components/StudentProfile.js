@@ -3,13 +3,7 @@ import  "./StudentProfile.css";
 import Header from './Header';
 import PageHeader from './PageHeader';
 import { Container, Modal, Button, Card } from "react-bootstrap";
-import StudentProfileCard from "./StudentProfileCard";
 import jpic from "./../web_design/student_page/students_pics/JaanbaazAkhtar.jpg";
-
-
-
-
-
 
 function MyVerticallyCenteredModal(props) {
     return (
@@ -65,36 +59,44 @@ const StudentProfile = () => {
                     </div>
                 
 
-                <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                        <h3>HOME</h3>
-                            <Card onClick={() => setModalShow(true)} style={{ width: '13rem', borderRadius:'20px',textAlign:'center', alignItems:'center' }}>
-                                <Card.Img variant="top" className="m-3" src={jpic}style={{width:'85%', borderRadius:'15px'}}  />
-                                <Card.Body>
-                                    <Card.Title>Jaanbaaz Akhtar</Card.Title>
-                                    <Card.Text>
-                                        Mca 4th sem
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <MyVerticallyCenteredModal
-                                show={modalShow}
-                                onHide={() => setModalShow(false)}
-                            />
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <h3>HOME</h3>
+
+                                <Card className="studentCard" onClick={() => setModalShow(true)} style={{ width: '13rem', borderRadius:'20px',textAlign:'center', alignItems:'center' }}>
+                                    <Card.Img variant="top" className="m-3" src={jpic}style={{width:'85%', borderRadius:'15px'}}  />
+                                    <Card.Body>
+                                        <Card.Title>Jaanbaaz Akhtar</Card.Title>
+                                        <Card.Text>
+                                            Mca 4th sem
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+
+
+                                <MyVerticallyCenteredModal
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
+                                />
+
+                        </div>
+
+                        <div id="menu1" class="tab-pane fade">
+
+                            <h3>Menu 1</h3>
+
+                                <Card className="studentCard" onClick={() => setModalShow(true)} style={{ width: '13rem', borderRadius:'20px',textAlign:'center', alignItems:'center' }}>
+                                    <Card.Img variant="top" className="m-3" src={jpic}style={{width:'85%', borderRadius:'15px'}}  />
+                                    <Card.Body>
+                                        <Card.Title>Jaanbaaz Akhtar</Card.Title>
+                                        <Card.Text>
+                                            Mca 4th sem
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Card>
+
+                        </div>
                     </div>
-                    <div id="menu1" class="tab-pane fade">
-                        <h3>Menu 1</h3>
-                            <Card style={{ width: '13rem', borderRadius:'20px',textAlign:'center', alignItems:'center' }}>
-                                <Card.Img variant="top" className="m-3" src={jpic}style={{width:'85%', borderRadius:'15px'}}  />
-                                <Card.Body>
-                                    <Card.Title>Jaanbaaz Akhtar</Card.Title>
-                                    <Card.Text>
-                                        Mca 4th sem
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                    </div>
-                </div>
                 </Container>
             </section>
             

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../web_design/MainFinal/galib.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid #ecfafe 20px;
+    box-shadow: 15px 15px 30px rgb(128, 128, 128, 0.15);
+  }
+  #hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #09526f;
+    opacity: 90%;
+  }
+  #content {
+    z-index: 1;
+  }
+  #content img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  #content h1 {
+    color: #fff;
+  }
+  #content h2 {
+    color: #fff;
+  }
+  .row {
+    width: 100%;
+  }
+  #ghalib img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 17px solid #fff;
+    box-shadow: 15px 15px 15px rgb(128, 128, 128, 0.15);
+  }
+  #aboutHeading {
+    background: linear-gradient(#0079a5, #143d61);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px #ecfafe;
+  }
+  #aboutContent p {
+    text-align: justify;
+  }
+  #aboutButton {
+    background: linear-gradient(#0079a5, #143d61);
+    color: #fff;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 20px 30px #ecfafe;
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+  .optionsCard {
+    width: 100%;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 15px 15px 50px #888888;
+    margin: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .optionsCard button {
+    background: #fff;
+    color: purple;
+    padding: 5px 20px;
+    border-radius: 50px;
+  }
+  .optionsCard img {
+    height: 150px;
+    width: 150px;
+  }
+  #optionContainer {
+    margin-top: 5em;
+    padding: 8em;
+  }

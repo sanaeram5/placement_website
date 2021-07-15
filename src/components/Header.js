@@ -1,100 +1,66 @@
-import React,{useState} from "react";
-import jamia from '../web_design/Main Final/logo.png'
-import {Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText} from "reactstrap";
-    
-  // class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.toggle = this.toggle.bind(this);
-  //   this.onMouseEnter = this.onMouseEnter.bind(this);
-  //   this.onMouseLeave = this.onMouseLeave.bind(this);
-  //   this.state = {
-  //     dropdownOpen1: false
-  //   };
-  // }
-
-  // toggle(id) {
-  //  this.setState({[id]:!this.state[`${id}`]})
-  // }
-
-  // onMouseEnter(id) {
-  //   this.setState({ [id]: true });
-  // }
-
-  // onMouseLeave(id) {
-  //   this.setState({ [id]: false });
-
-  // }
-
-  // render() {
-    const Header =()=>{
-     const [isOpen,setIsOpen] =useState(false);
-
-     const toggle=()=>{
-       setIsOpen(!isOpen);
-     }
-     const [dropdownVisibility, setDropdownVisibility] = useState(false);
-    
-     const onMouseEnter=()=>{
-       setDropdownVisibility(true);
-
-     }
-     const onMouseLeave=()=>{
-       setDropdownVisibility(false);
-     }
-     
-
-    return(
-         <div>
-    <Navbar style={{background:"#09526F"}}  expand="md">
-      <NavbarBrand href="/"><img src={jamia} style={{width:"40px"}}/></NavbarBrand>
-      <NavbarToggler onClick={toggle} />
-      <Collapse isOpen={isOpen} navbar>
-        <Nav className="ml-auto" navbar>
-          <NavItem>
-            <NavLink href="/components/">Components</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-          </NavItem>
-          <UncontrolledDropdown nav inNavbar className="d-inline-block"
-          onMouseOver={onMouseEnter}
-          onMouseLeave={onMouseLeave}
-          isOpen={dropdownVisibility}>
-            <DropdownToggle nav caret>
-              Options
-            </DropdownToggle>
-            <DropdownMenu right>
-              <DropdownItem>
-                Option 1
-              </DropdownItem>
-              <DropdownItem>
-                Option 2
-              </DropdownItem>
-              <DropdownItem divider />
-              <DropdownItem>
-                Reset
-              </DropdownItem>
-            </DropdownMenu>
-          </UncontrolledDropdown>
-        </Nav>
-        <NavbarText>Simple Text</NavbarText>
-      </Collapse>
-    </Navbar>
-  </div>
-    );
-  }
-
+import React,{useState} from 'react';
+import {NavLink, Link} from 'react-router-dom';
+import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
+import jamia from '../web_design/MainFinal/logo.png';
+const Header = () => {
+    const [isMenu, setisMenu] = useState(false);
+    const [isResponsiveclose, setResponsiveclose] = useState(false);
+    const toggleClass = () => {
+      setisMenu(isMenu === false ? true : false);
+      setResponsiveclose(isResponsiveclose === false ? true : false);
+  };
+    let boxClass = ["main-menu menu-right menuq1"];
+    if(isMenu) {
+        boxClass.push('menuq2');
+    }else{
+        boxClass.push('');
+    }
+    const [isMenuSubMenu, setMenuSubMenu] = useState(false);
+    const toggleSubmenu = () => {
+      setMenuSubMenu(isMenuSubMenu === false ? true : false);
+    };
+    let boxClassSubMenu = ["sub__menus"];
+    if(isMenuSubMenu) {
+        boxClassSubMenu.push('sub__menus__Active');
+    }else {
+        boxClassSubMenu.push('');
+    }
+    return (
+    <header className="header__middle">
+        <div className="container">
+            <div className="row">
+                {/* Add Logo  */}
+                <div className="header__middle__logo">
+                    <NavLink exact activeClassName='is-active' to="/">
+                        <img src={jamia} style={{width:"40px"}} alt="logo" /> 
+                    </NavLink>
+                </div>
+                <div className="header__middle__menus">
+                    <nav className="main-nav " >
+                    {/* Responsive Menu Button */}
+                    {isResponsiveclose === true ? <> 
+                        <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle />   </span>
+                    </> : <> 
+                        <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight />   </span>
+                    </>}
+                    <ul className={boxClass.join(' ')}>
+                        <li  className="menu-item" >
+                            <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
+                        </li>
+                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
+                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop <FiChevronDown /> </Link>
+                            <ul className={boxClassSubMenu.join(' ')} > 
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </NavLink> </li>
+                            </ul>
+                        </li>
+                        <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+                    </ul>
+                    </nav>     
+                </div>   
+            </div>
+	    </div>
+    </header>
+    )
+}
 export default Header;

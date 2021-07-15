@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import './Footer.css'
-import jamia from '../web_design/Main Final/logo.png';
-import linkedin from  '../web_design/Main Final/linkedin.png';
-import insta from '../web_design/Main Final/instagram.png';
-import email from '../web_design/Main Final/email.png';
+import jamia from '../web_design/MainFinal/logo.png';
+import linkedin from  '../web_design/MainFinal/linkedin.png';
+import insta from '../web_design/MainFinal/instagram.png';
+import email from '../web_design/MainFinal/email.png';
 import {Link} from 'react-router-dom';
 
 const Footer = ()=> {

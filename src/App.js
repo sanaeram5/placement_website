@@ -30,7 +30,6 @@ const App=()=>{
             <Route path="/student_profile" exact component={StudentProfile}/>
             <Route path="/curriculum" exact component={Curriculum}/>
         </Router>
-
       </>
     )
 };
