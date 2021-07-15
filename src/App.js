@@ -23,7 +23,6 @@ const App=()=>{
             <Route path="/about" exact component={About}/>
             <Route path="/contact" exact component={Contact}/>
             <Route path="/coordinators" exact component={Coordinators}/>
-            <Route path="/courses" exact component={Courses}/>
             <Route path="/faculty" exact component={Faculty}/>
             <Route path="/faq" exact component={Faq}/>
             <Route path="/message" exact component={Message}/>

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import jamia from '../web_design/Main Final/logo.png'
 import {Collapse,
     Navbar,
@@ -13,39 +13,56 @@ import {Collapse,
     DropdownItem,
     NavbarText} from "reactstrap";
     
-  class Header extends React.Component {
-  constructor(props) {
-    super(props);
+  // class Header extends React.Component {
+  // constructor(props) {
+  //   super(props);
 
-    this.toggle = this.toggle.bind(this);
-    this.onMouseEnter = this.onMouseEnter.bind(this);
-    this.onMouseLeave = this.onMouseLeave.bind(this);
-    this.state = {
-      dropdownOpen1: false
-    };
-  }
+  //   this.toggle = this.toggle.bind(this);
+  //   this.onMouseEnter = this.onMouseEnter.bind(this);
+  //   this.onMouseLeave = this.onMouseLeave.bind(this);
+  //   this.state = {
+  //     dropdownOpen1: false
+  //   };
+  // }
 
-  toggle(id) {
-   this.setState({[id]:!this.state[`${id}`]})
-  }
+  // toggle(id) {
+  //  this.setState({[id]:!this.state[`${id}`]})
+  // }
 
-  onMouseEnter(id) {
-    this.setState({ [id]: true });
-  }
+  // onMouseEnter(id) {
+  //   this.setState({ [id]: true });
+  // }
 
-  onMouseLeave(id) {
-    this.setState({ [id]: false });
+  // onMouseLeave(id) {
+  //   this.setState({ [id]: false });
 
-  }
+  // }
 
-  render() {
+  // render() {
+    const Header =()=>{
+     const [isOpen,setIsOpen] =useState(false);
+
+     const toggle=()=>{
+       setIsOpen(!isOpen);
+     }
+     const [dropdownVisibility, setDropdownVisibility] = useState(false);
+    
+     const onMouseEnter=()=>{
+       setDropdownVisibility(true);
+
+     }
+     const onMouseLeave=()=>{
+       setDropdownVisibility(false);
+     }
+     
+
     return(
          <div>
     <Navbar style={{background:"#09526F"}}  expand="md">
       <NavbarBrand href="/"><img src={jamia} style={{width:"40px"}}/></NavbarBrand>
-      <NavbarToggler  />
-      <Collapse  navbar>
-        <Nav className="mr-auto" navbar>
+      <NavbarToggler onClick={toggle} />
+      <Collapse isOpen={isOpen} navbar>
+        <Nav className="ml-auto" navbar>
           <NavItem>
             <NavLink href="/components/">Components</NavLink>
           </NavItem>
@@ -53,11 +70,9 @@ import {Collapse,
             <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
           </NavItem>
           <UncontrolledDropdown nav inNavbar className="d-inline-block"
-          onMouseOver={()=>this.onMouseEnter("dropdownOpen1")}
-          onMouseLeave={()=>this.onMouseLeave("dropdownOpen1")}
-          isOpen={this.state.dropdownOpen1}
-          toggle={()=>this.toggle("dropdownOpen1")}
-        >
+          onMouseOver={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+          isOpen={dropdownVisibility}>
             <DropdownToggle nav caret>
               Options
             </DropdownToggle>
@@ -81,5 +96,5 @@ import {Collapse,
   </div>
     );
   }
-}
+
 export default Header;
