@@ -7,7 +7,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: url("../web_design/Main Final/179478-jamiaweb.jpg");
+    background-image: url("../web_design/MainFinal/galib.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body {
     box-shadow: 0px 20px 30px #ecfafe;
   }
   #options {
-    background: url("../web_design/Main Final/base.png");
+    background: url("../web_design/MainFinal/base.png");
     background-position: center center;
     background-size: 100% 100%;
     width: 100%;

@@ -5,11 +5,6 @@ import PageHeader from './PageHeader';
 import { Container, Modal, Button, Card } from "react-bootstrap";
 import jpic from "./../web_design/student_page/students_pics/JaanbaazAkhtar.jpg";
 
-
-
-
-
-
 function MyVerticallyCenteredModal(props) {
     return (
       <Modal

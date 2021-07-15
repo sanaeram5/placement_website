@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
-import jamia from '../web_design/Main Final/logo.png';
+import jamia from '../web_design/MainFinal/logo.png';
 const Header = () => {
     const [isMenu, setisMenu] = useState(false);
     const [isResponsiveclose, setResponsiveclose] = useState(false);

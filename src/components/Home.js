@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "./Header";
 import "./Home.css";
-import logo from "../web_design/Main Final/logo.png";
-import ghalib from "../web_design/Main Final/1794781-jamiaweb.jpg";
-import messageIcon from "../web_design/Main Final/message icon.png";
-import messageBg from "../web_design/Main Final/message.png";
-import ourTeamIcon from "../web_design/Main Final/our team icon.png";
-import ourTeamBg from "../web_design/Main Final/our team.png";
-import pastRecIcon from "../web_design/Main Final/past rec icon.png";
-import pastRecBg from "../web_design/Main Final/past recruiter.png";
-import studentIcon from "../web_design/Main Final/student icon.png";
-import studentBg from "../web_design/Main Final/student.png";
-import syllabusIcon from "../web_design/Main Final/syllabus icon.png";
-import syllabusBg from "../web_design/Main Final/syllabus.png";
-import teacherIcon from "../web_design/Main Final/teacher icon.png";
-import teacherBg from "../web_design/Main Final/teacher.png";
+import logo from "../web_design/MainFinal/logo.png";
+import ghalib from "../web_design/MainFinal/galib.jpg";
+import messageIcon from "../web_design/MainFinal/messageicon.png";
+import messageBg from "../web_design/MainFinal/message.png";
+import ourTeamIcon from "../web_design/MainFinal/ourteamicon.png";
+import ourTeamBg from "../web_design/MainFinal/ourteam.png";
+import pastRecIcon from "../web_design/MainFinal/pastrecicon.png";
+import pastRecBg from "../web_design/MainFinal/pastrecruiter.png";
+import studentIcon from "../web_design/MainFinal/studenticon.png";
+import studentBg from "../web_design/MainFinal/student.png";
+import syllabusIcon from "../web_design/MainFinal/syllabusicon.png";
+import syllabusBg from "../web_design/MainFinal/syllabus.png";
+import teacherIcon from "../web_design/MainFinal/teachericon.png";
+import teacherBg from "../web_design/MainFinal/teacher.png";
 
 export default function Home() {
   return (
