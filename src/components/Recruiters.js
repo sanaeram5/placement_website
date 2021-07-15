@@ -4,18 +4,16 @@ import './Recruiters.css';
 import data from './data';
 import Footer from './Footer';
 
-class Recruiters extends React.Component{
-    render(){
-
+const Recruiters = ()=> {
         return(
             <div className="recruiters-main">
-                <div className="heading">
+                 <div className="recruiters-heading">
                     <p>❖</p>
                     <p>PAST RECRUITERS</p>
                     <p>❖</p>
                 </div>
 
-                <div className="companies-photos">
+               <div className="companies-photos">
                 <Myloop/>
                 </div>
                 <div>
@@ -42,10 +40,10 @@ class Recruiters extends React.Component{
                     </div>
                 </div>
                 ))}
-                </div>
+                </div> 
                 <Footer/>
             </div>
         );
     }
-}
+
 export default Recruiters;
