@@ -25,111 +25,121 @@ import graph20 from '../web_design/past_placement/2020-bar.png'
 import graph19 from '../web_design/past_placement/2019-bar.png'
 
 export default {
-    
 
-    "faculty": [{   
-                    
-                    "id":"1",
-                    "faculty-name":"DR. SMK QUADRI",
-                    "faculty-designation":"Professor and Head of Department (M.Tech, PhD)",
-                    "faculty-exp":"Year of Experience: 29",
-                    "special-in":"Software Reliability engineering,Software testing and Software engineering",
-                    "image":image_quadri
-                },
-                {   
-                    
-                    "id":"2",
-                    "faculty-name":"DR. Syed Afzal Murtaza Rizvi",
-                    "faculty-designation":"Professor (MSc, PhD)",
-                    "faculty-exp":"Years of Experience: 30+",
-                    "special-in":"Software Engineering, Automation,Algorithms and Bio-Informatics",
-                    "image":image_rizvi        
-                },
-            {   "id":"3",
-            
-            "faculty-name":"DR. Monica Mehrotra",
-            "faculty-designation":"Professor (MCA, PhD)",
-            "faculty-exp":"Years of Experience: 23",
-            "special-in":"Data Mining, Social Network Analysis and Information Retrieval",
-            "image":image_monica        
-        },
-        {   "id":"4",
-            "faculty-name":"DR. KHURRAM MUSTAFA",
-            "faculty-designation":"Professor (MSc, M.Tech, PhD)",
-            "faculty-exp":"Years of Experience: 20",
-            "special-in":"E-Learning,Software Engineering and Software Security",
-            "image":image_kmustafa        
-        },
-        {   "id":"5",
-            "faculty-name":"DR. MOHAMMAD ABULAISH",
-            "faculty-designation":"Professor (MCA, PhD)",
-            "faculty-exp":"Years of Experience: 20",
-            "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
-            "image":image_abulaish       
-        },
-        {   "id":"6",
-            "faculty-name":"DR. Rafat Parveen",
-            "faculty-designation":"Associate Professor (MTech, PhD)",
-            "faculty-exp":"Years of Experience: 18",
-            "special-in":"Bio-Informatics - System Biology and Computional Biology, Computer Networks.",
-            "image":image_rafat     
-        },
-        {   "id":"7",
-        "faculty-name":"DR. Syed Zeeshan Husain",
-        "faculty-designation":"Associate Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 17",
-        "special-in":"Computer Networks and Security.",
-        "image":image_zeeshan      
-        },
-        {   "id":"8",
-        "faculty-name":"DR. Mohammad Nazir",
-        "faculty-designation":"Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 20",
-        "special-in":"Software Engineering,Software Security and Software Quality Assurance",
-        "image":image_nazir       
-        },
-        {   "id":"9",
-        "faculty-name":"DR. Rajendra Kumar",
-        "faculty-designation":"Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 16",
-        "special-in":"Information Security, Network Security,WebApp Security and Data Analytics.",
-        "image":image_rajendra      
-        },
-        {   "id":"10",
-        "faculty-name":"DR. Suraiya Jabin",
-        "faculty-designation":"Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 15",
-        "special-in":"Artificial Intelligence, Soft Computing,Biometrics, Computational Biology and Pattern Recognition.",
-        "image":image_Suraiya     
-        },
-        {   "id":"11",
-        "faculty-name":"DR. Mansaf Alam",
-        "faculty-designation":"Associate Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 15",
-        "special-in":"Big Data Analytics and Cloud Computing",
-        "image":image_mansaf       
-        },
-        {   "id":"12",
-        "faculty-name":"DR. Jahiruddin",
-        "faculty-designation":"Associate Professor (MCA, PhD)",
-        "faculty-exp":"Years of Experience: 14",
-        "special-in":"Text Mining and Social Network Analysis.",
-        "image":image_jahir       
-        },
-        {   "id":"13",
-        "faculty-name":"DR. Taran Singh Bharti",
-        "faculty-designation":"Assistant Professor (MCA, MTech, UGC-JRF)",
-        "faculty-exp":"Years of Experience: 9",
-        "special-in":"Security, Algorithms, Database, Theory of Computation and Distributed Computing",
-        "image":image_taran      
-        },
-        {   "id":"14",
-        "faculty-name":"DR. Khalid Raza",
-        "faculty-designation":"Associate Professor (MCA, MPhil, UGC-JRF, PhD)",
-        "faculty-exp":"Years of Experience: 8",
-        "special-in":"Soft Computing Techniques, Computational Biology and Machine Learning",
-        "image":image_khalid       
-        },
+
+    "faculty": [{
+
+        "id": "1",
+        "faculty-name": "DR. SMK QUADRI",
+        "faculty-designation": "Professor and Head of Department (M.Tech, PhD)",
+        "faculty-exp": "Year of Experience: 29",
+        "special-in": "Software Reliability engineering,Software testing and Software engineering",
+        "image": image_quadri
+    },
+    {
+        "id": "2",
+        "faculty-name": "DR. Syed Afzal Murtaza Rizvi",
+        "faculty-designation": "Professor (MSc, PhD)",
+        "faculty-exp": "Years of Experience: 30+",
+        "special-in": "Software Engineering, Automation,Algorithms and Bio-Informatics",
+        "image": image_rizvi
+    },
+    {
+        "id": "3",
+        "faculty-name": "DR. Monica Mehrotra",
+        "faculty-designation": "Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 23",
+        "special-in": "Data Mining, Social Network Analysis and Information Retrieval",
+        "image": image_monica
+    },
+    {
+        "id": "4",
+        "faculty-name": "DR. KHURRAM MUSTAFA",
+        "faculty-designation": "Professor (MSc, M.Tech, PhD)",
+        "faculty-exp": "Years of Experience: 20",
+        "special-in": "E-Learning,Software Engineering and Software Security",
+        "image": image_kmustafa
+    },
+    {
+        "id": "5",
+        "faculty-name": "DR. MOHAMMAD ABULAISH",
+        "faculty-designation": "Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 20",
+        "special-in": "Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
+        "image": image_abulaish
+    },
+    {
+        "id": "6",
+        "faculty-name": "DR. Rafat Parveen",
+        "faculty-designation": "Associate Professor (MTech, PhD)",
+        "faculty-exp": "Years of Experience: 18",
+        "special-in": "Bio-Informatics - System Biology and Computional Biology, Computer Networks.",
+        "image": image_rafat
+    },
+    {
+        "id": "7",
+        "faculty-name": "DR. Syed Zeeshan Husain",
+        "faculty-designation": "Associate Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 17",
+        "special-in": "Computer Networks and Security.",
+        "image": image_zeeshan
+    },
+    {
+        "id": "8",
+        "faculty-name": "DR. Mohammad Nazir",
+        "faculty-designation": "Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 20",
+        "special-in": "Software Engineering,Software Security and Software Quality Assurance",
+        "image": image_nazir
+    },
+    {
+        "id": "9",
+        "faculty-name": "DR. Rajendra Kumar",
+        "faculty-designation": "Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 16",
+        "special-in": "Information Security, Network Security,WebApp Security and Data Analytics.",
+        "image": image_rajendra
+    },
+    {
+        "id": "10",
+        "faculty-name": "DR. Suraiya Jabin",
+        "faculty-designation": "Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 15",
+        "special-in": "Artificial Intelligence, Soft Computing,Biometrics, Computational Biology and Pattern Recognition.",
+        "image": image_Suraiya
+    },
+    {
+        "id": "11",
+        "faculty-name": "DR. Mansaf Alam",
+        "faculty-designation": "Associate Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 15",
+        "special-in": "Big Data Analytics and Cloud Computing",
+        "image": image_mansaf
+    },
+    {
+        "id": "12",
+        "faculty-name": "DR. Jahiruddin",
+        "faculty-designation": "Associate Professor (MCA, PhD)",
+        "faculty-exp": "Years of Experience: 14",
+        "special-in": "Text Mining and Social Network Analysis.",
+        "image": image_jahir
+    },
+    {
+        "id": "13",
+        "faculty-name": "DR. Taran Singh Bharti",
+        "faculty-designation": "Assistant Professor (MCA, MTech, UGC-JRF)",
+        "faculty-exp": "Years of Experience: 9",
+        "special-in": "Security, Algorithms, Database, Theory of Computation and Distributed Computing",
+        "image": image_taran
+    },
+    {
+        "id": "14",
+        "faculty-name": "DR. Khalid Raza",
+        "faculty-designation": "Associate Professor (MCA, MPhil, UGC-JRF, PhD)",
+        "faculty-exp": "Years of Experience: 8",
+        "special-in": "Soft Computing Techniques, Computational Biology and Machine Learning",
+        "image": image_khalid
+    },
         // {   "id":"15",
         // "faculty-name":"DR. MOHAMMAD ABULAISH",
         // "faculty-designation":"Professor (MCA, PhD)",
@@ -137,27 +147,27 @@ export default {
         // "special-in":"Data Analytics, Web Intelligence, Security Informatics and Digital Forensics.",
         // "image":image_abulaish       
         // },
-],
+    ],
 
-    "past":     [{
-                    
-                    "year":"2021",
-                    "pie":pie21,
-                    "graph":graph21
+    "past": [{
 
-                },
-                {
-                    "year":"2020",
-                    "pie":pie20,
-                    "graph":graph20
-        
-                },
-                {
-                    "year":"2019",
-                    "pie":pie19,
-                    "graph":graph19
-        
-                }
-            ]
+        "year": "2021",
+        "pie": pie21,
+        "graph": graph21
+
+    },
+    {
+        "year": "2020",
+        "pie": pie20,
+        "graph": graph20
+
+    },
+    {
+        "year": "2019",
+        "pie": pie19,
+        "graph": graph19
+
+    }
+    ]
 
 };
