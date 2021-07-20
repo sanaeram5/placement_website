@@ -2,6 +2,9 @@ import React,{useState} from "react";
 import "./StudentProfileCard.css";
 import {Card,Container, Row, Col, Modal, Button} from "react-bootstrap";
 import jpic from "./../web_design/student_page/students_pics/JaanbaazAkhtar.jpg";
+import linkedIn from "./../web_design/MainFinal/linkedin2.png";
+import gmail from "./../web_design/MainFinal/gmail2.png";
+import github from "./../web_design/MainFinal/github.png";
 
 function MyVerticallyCenteredModal(props) {
 
@@ -12,22 +15,32 @@ function MyVerticallyCenteredModal(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            Modal heading
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <h4>Centered Modal</h4>
-          <p>
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
-          </p>
+        <Modal.Body style={{padding:'0px'}}>
+              <div className="modal-head" style={{textAlign:'center', paddingTop:'2%', paddingBottom:'2%'}}>
+                <h2>Jaanbaaz Akhtar</h2>
+                <h4>19MCA019</h4>
+              </div>
+          <Row>
+            <Col md={4} sm={6} xs={12}>
+              <img src={jpic} alt="" width="80%" height="100%" style={{marginLeft:'10%', borderRadius:'25px'}}/>
+            </Col>
+            <Col md={8} sm={6} xs={12}>
+              
+              <h3>Technical Skills:</h3>
+              <ul className="d-flex align-items-center">
+                <li className="skill">HTML</li>
+                <li className="skill">CSS</li>
+                <li className="skill">JAVA</li>
+                <li className="skill">C++</li>
+              </ul>
+            </Col>
+          </Row>
+          <div className="social-links pl-5">
+            <p><a href="#"><span><img src={linkedIn} width="25px"/></span> linkedin link</a></p>
+            <p><a href="#"><span><img src={gmail} width="25px"/></span> gmail link</a></p>
+            <p><a href="#"><span><img src={github} width="25px"/></span>github link</a></p>
+          </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer>
       </Modal>
     );
   }

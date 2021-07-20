@@ -5,19 +5,19 @@ import PageHeader from './PageHeader';
 import CoordinatorsCard from './coordinators_card';
 
 import image_Suraiya from '../web_design/teacher page/faculty/dr_suraiya.jpg';
-import image_Ariba from '../web_design/student page/students pics/Ariba Ather.jpeg';
-import image_Zia from '../web_design/student page/students pics/Zia Haider Naqvi.jpg';
-import image_Guarav from '../web_design/student page/students pics/Batch 2020-2022/Gaurav Jha.jpeg';
-import image_Jawed from '../web_design/student page/students pics/Jawed Alam.png';
-import image_Mahima from '../web_design/student page/students pics/Batch 2020-2022/Mahima Negi.jpg';
-import image_Bilal from '../web_design/student page/students pics/Bilal Ahmad.jpg';
-import image_Huda from '../web_design/student page/students pics/Batch 2020-2022/Huda.jpg';
-import image_Azim from '../web_design/student page/students pics/Batch 2020-2022/Azim Ahmad.png';
-import image_Jaanbaaz from '../web_design/student page/students pics/Jaanbaaz Akhtar.jpg';
-import image_Sana from '../web_design/student page/students pics/sana eram.jpg';
-import image_Saurabh from  '../web_design/student page/students pics/Saurabh Dwivedi.jpg';
-import image_Afnan from  '../web_design/student page/students pics/Batch 2020-2022/Shah Afnan Ansari.jpg';
-import image_Nikhil from  '../web_design/student page/students pics/Batch 2020-2022/Nikhil Joshi.jpg';
+import image_Ariba from '../web_design/student_page/students_pics/Ariba Ather.jpeg';
+import image_Zia from '../web_design/student_page/students_pics/Zia Haider Naqvi.jpg';
+import image_Guarav from '../web_design/student_page/students_pics/Batch 2020-2022/Gaurav Jha.jpeg';
+import image_Jawed from '../web_design/student_page/students_pics/Jawed Alam.png';
+import image_Mahima from '../web_design/student_page/students_pics/Batch 2020-2022/Mahima Negi.jpg';
+import image_Bilal from '../web_design/student_page/students_pics/Bilal Ahmad.jpg';
+import image_Huda from '../web_design/student_page/students_pics/Batch 2020-2022/Huda.jpg';
+import image_Azim from '../web_design/student_page/students_pics/Batch 2020-2022/Azim Ahmad.png';
+import image_Jaanbaaz from '../web_design/student_page/students_pics/JaanbaazAkhtar.jpg';
+import image_Sana from '../web_design/student_page/students_pics/sana eram.jpg';
+import image_Saurabh from  '../web_design/student_page/students_pics/Saurabh Dwivedi.jpg';
+import image_Afnan from  '../web_design/student_page/students_pics/Batch 2020-2022/Shah Afnan Ansari.jpg';
+import image_Nikhil from  '../web_design/student_page/students_pics/Batch 2020-2022/Nikhil Joshi.jpg';
 
 export default function Coordinators() {
     return (
