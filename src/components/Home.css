@@ -1,19 +1,52 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
   }
+=======
+
+  .home-body{
+    font-family: Arial;
+    background-color: #ECFAFE;
+
+  }
+  
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
   #hero {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+<<<<<<< HEAD
     background-image: url("../web_design/MainFinal/galib.jpg");
+=======
+    background-image: url("../web_design/MainFinal/student-bg.png");
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: solid #ecfafe 20px;
     box-shadow: 15px 15px 30px rgb(128, 128, 128, 0.15);
+<<<<<<< HEAD
   }
+=======
+    border-bottom-left-radius: 100% 50%;
+    border-bottom-right-radius: 100% 50%;
+    z-index: 1;
+
+  }
+
+  .mid-home-container{
+    border-bottom-left-radius: 100% 40%;
+    border-bottom-right-radius: 100% 40%;
+    padding: 20vh 16vh;
+    background-color: white;
+    position: relative;
+    z-index: 0
+  }
+
+  
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
   #hero::before {
     content: "";
     position: absolute;
@@ -21,7 +54,10 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
     background: #09526f;
+=======
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
     opacity: 90%;
   }
   #content {
@@ -38,12 +74,19 @@ body {
   #content h2 {
     color: #fff;
   }
+<<<<<<< HEAD
   .row {
     width: 100%;
   }
   #ghalib img {
     height: 400px;
     width: 400px;
+=======
+  
+  #ghalib img {
+    height: 500px;
+    width: 500px;
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
     border-radius: 50%;
     border: 17px solid #fff;
     box-shadow: 15px 15px 15px rgb(128, 128, 128, 0.15);
@@ -53,6 +96,10 @@ body {
     color: #fff;
     border-radius: 15px;
     box-shadow: 0px 20px 30px #ecfafe;
+<<<<<<< HEAD
+=======
+    padding: 4px 8px;
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
   }
   #aboutContent p {
     text-align: justify;
@@ -67,6 +114,16 @@ body {
     border-radius: 25px;
     box-shadow: 0px 20px 30px #ecfafe;
   }
+<<<<<<< HEAD
+=======
+
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357
   #options {
     background: url("../web_design/MainFinal/base.png");
     background-position: center center;
@@ -74,6 +131,7 @@ body {
     width: 100%;
   }
   
+<<<<<<< HEAD
   .optionsCard {
     width: 100%;
     color: #fff;
@@ -98,3 +156,18 @@ body {
     margin-top: 5em;
     padding: 8em;
   }
+=======
+
+  .optionContainer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 30%;
+}
+
+  
+>>>>>>> 3a76ecbd136c716ab750d4cbe92a89cfda028357

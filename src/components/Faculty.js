@@ -7,15 +7,17 @@ import PageHeader from './PageHeader';
 const Faculty = () => {
   return (
     <div>
-        
         <div className="container">
 
           <PageHeader page ="Faculty Profile" />   
           <div className="row my-4">
             {Data.faculty.map(res => (
+
               <div className="col-md-4 col-sm-6 col-xs-12 my-4">
                 <div class="card faculty-card" style={{ textAlign: "center" }}>
+                  
                   <img className="faculty-img rounded-circle" src={res.image} alt="" />
+
                   <div className="card-body" style={{ marginTop: -10 }}>
                     <div className="faculty-name">{res["faculty-name"]}</div>
                     <div className="faculty-designation">{res["faculty-designation"]}</div>
@@ -23,6 +25,7 @@ const Faculty = () => {
                     <div className="faculty-specialization">Areas of Specialization :</div>
                     <div className="spacial-in">{res["special-in"]}</div>
                   </div>
+
                 </div>
               </div>
             ))

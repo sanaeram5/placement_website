@@ -28,7 +28,7 @@ const Curriculum = () => {
                     <div id="home" class="tab-pane fade in active">
                         
                         <Row>
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
 
                                 <Card className="curriculumCard" >
                                     <Card.Body>
@@ -52,7 +52,7 @@ const Curriculum = () => {
 
                             </Col> 
 
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                 <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -78,7 +78,7 @@ const Curriculum = () => {
 
                         <Row className="row_second">
 
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                 <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -100,7 +100,7 @@ const Curriculum = () => {
                                 </Card>
                             </Col> 
 
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                 <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -125,7 +125,7 @@ const Curriculum = () => {
                         </Row>
 
                         <Row className="row_second">
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                 <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -147,7 +147,7 @@ const Curriculum = () => {
                                 </Card>
                             </Col>
 
-                            <Col md={6} sm={6} xs={12}>
+                            <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                 <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -167,7 +167,7 @@ const Curriculum = () => {
       
                             <Row>
 
-                                <Col md={6} sm={6} xs={12}>
+                                <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                     <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -188,7 +188,7 @@ const Curriculum = () => {
                                     </Card>
                                 </Col>
 
-                                <Col md={6} sm={6} xs={12}>
+                                <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                     <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -213,7 +213,7 @@ const Curriculum = () => {
                             </Row>
                           
                             <Row className="row_second">
-                                <Col md={6} sm={6} xs={12}>
+                                <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                     <Card className="curriculumCard">
                                     <Card.Body>
                                         <Card.Title className="card_title">
@@ -236,7 +236,7 @@ const Curriculum = () => {
                                     </Card>
                                 </Col> 
 
-                                <Col md={6} sm={6} xs={12}>
+                                <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
                                     <Card className="curriculumCard" >
                                     <Card.Body>
                                         <Card.Title className="card_title">
