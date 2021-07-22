@@ -3,15 +3,12 @@ import Myloop from './images';
 import './Recruiters.css';
 import data from './data';
 import Footer from './Footer';
+import PageHeader from './PageHeader';
 
 const Recruiters = ()=> {
         return(
             <div className="recruiters-main">
-                 <div className="recruiters-heading">
-                    <p>❖</p>
-                    <p>PAST RECRUITERS</p>
-                    <p>❖</p>
-                </div>
+                <PageHeader page="PAST RECRUITERS"/>
 
                <div className="companies-photos">
                 <Myloop/>

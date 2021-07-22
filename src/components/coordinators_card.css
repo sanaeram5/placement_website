@@ -1,27 +1,40 @@
 .card {
-    width: 40%; 
+    width: 45%; 
     border: solid 3px #036588 !important;
     margin-top: 30px;
     margin-left: 50px;
-    position: absolute;
-    border-radius: 25px;
-    padding: 10px;
-    
+    position: relative;
+    border-radius: 30px  !important;
+    padding: 5px;
+    box-shadow: 0px 1px 10px #2eaddb;
+    background-image: url('../web_design/MainFinal/ourteam.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon{
+border-radius: 100% !important;
+background-color: green !important;
 }
 
 .rounded-rect {
-    border-radius: 10px;
+    border-radius:100%;
   border: 2px solid #036588;
   width: 150px;
   height: 150px;
- 
+  box-shadow: 0px 1px 10px #535353;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.rounded-rect:hover{
+    transform: rotateY(360deg);
 }
 
 .card-name {
-    background:  #036588;
+    background: rgb(0, 140, 255);
     height: 40px;
     width: 90%;
-    margin-left: 20px;
+    margin-left: 30px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -30,17 +43,24 @@
     font-size: 20px;
     border-radius: 10px;
     /* border: solid 2px #0079A5; */
+
 }
 
 .card-num{
+    background: rgb(0, 140, 255);
+    border-radius: 10px;
     font-size: 15px;
-    color: #000000;
-    margin-left: 30px;
+    padding: 5px;
+    color: black;
+    margin-left: 50px;
 
 }
 
 .card-email {
+    background: rgb(0, 140, 255);
+    border-radius: 10px;
+    padding: 5px;
     font-size: 15px;
-    color: #000000;
-    margin-left: 30px;
+    color: black;
+    margin-left: 50px;
 }

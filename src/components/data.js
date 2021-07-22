@@ -186,7 +186,7 @@ export default {
     "home":[{
         "icon":teacherIcon,
         "message":"TEACHER'S PROFILE",
-        "bgImage":teacherBg,
+        "bgImage":studentBg,
         "pathLink":"/faculty"
     },
     {

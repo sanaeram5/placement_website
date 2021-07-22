@@ -1,15 +1,16 @@
 .coordinators-subheading{
     margin-top: 100px;
     background: linear-gradient(#0079A5, #036588);
-    height: 40px;
-    width: 400px;
+    height: 50px;
+    width: 30%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color:#fff;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 15px;
+    white-space: wrap;
 }
 
 .coordinators-subheading:before {
@@ -26,4 +27,5 @@
 .box {
     width:100%;
     display: flex;
+
 }

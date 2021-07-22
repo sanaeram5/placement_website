@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Coordinators.css";
-import Header from "./Header";
 import PageHeader from './PageHeader';
 import CoordinatorsCard from './coordinators_card';
 
@@ -22,7 +21,6 @@ import image_Nikhil from  '../web_design/student_page/students_pics/Batch 2020-2
 export default function Coordinators() {
     return (
         <>
-            <Header />
 
             <div className="container">
 
@@ -55,7 +53,7 @@ export default function Coordinators() {
                     <CoordinatorsCard image={image_Afnan} name="Shah Afnan Ansari" num="+91 9013074686" email="shahafnan786@gmail.com" />
                 </div>
 
-                <div className="coordinators-subheading">BROCHURE/PORTFOLIO & WEB DESIGN TEAM</div>
+                <div className="coordinators-subheading" style={{padding:"3%"}}>BROCHURE/PORTFOLIO & WEB DESIGN TEAM</div>
 
                 <div className="box">
                     <CoordinatorsCard image={image_Bilal} name="Bilal Ahmad" num="+91 97585 68756" email="bilal0558@gmail.com" />

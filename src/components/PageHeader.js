@@ -4,11 +4,11 @@ import "./PageHeader.css";
 const PageHeader = (props) => {
     return(
         <>
-            <header>
+            <div className="page-header">
                 <p>❖</p>
-                    {props.page}
+                    <p>{props.page}</p>
                 <p>❖</p>
-            </header>
+            </div>
         </>
     );
 }

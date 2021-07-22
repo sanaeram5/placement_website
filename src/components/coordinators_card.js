@@ -10,7 +10,7 @@ const CoordinatorsCard = props => {
     return (
         <div className="card mb-3">
 
-            <div className="row no-gutters">
+            <div className="row no-gutters ">
 
                 <div className="col-md-12 col-xs-12 col-lg-4">
                     <img className="rounded-rect" src={props.image} />
@@ -22,7 +22,7 @@ const CoordinatorsCard = props => {
 
                         <p className="card-num mt-4"> <i className="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;{props.num}</p>
 
-                        <p className="card-email"><i className="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;{props.email}</p>
+                        <p className="card-email"><i className="fas fa-envelope "></i>&nbsp;&nbsp;&nbsp;{props.email}</p>
                     
                 </div>
 
