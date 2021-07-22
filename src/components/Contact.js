@@ -32,7 +32,7 @@ function Faq() {
                             </div>
                             <div className="form-group">
                               <label for="message">Message
-                                <textarea name="message" style={{width:'160%'}}></textarea>
+                                <textarea name="message" style={{width:'160%',border:'none', borderBottom:'1px solid gray'}}></textarea>
                               </label>
                             </div>
                             <button className="btn btn-primary" type="submit" style={{width:'50%'}}>Send <span className="pl-1"><img src={send} width="22px"/></span></button>

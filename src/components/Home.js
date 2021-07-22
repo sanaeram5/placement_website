@@ -1,6 +1,5 @@
   
 import React from "react";
-<<<<<<< HEAD
 import Header from "./Header";
 import "./Home.css";
 import logo from "../web_design/MainFinal/logo.png";
@@ -25,29 +24,11 @@ import teacherBg from "../web_design/MainFinal/teacher.png";
         className="container-fluid d-flex flex-column justify-content-center align-items-center"
         id="hero"
       >
-=======
-import "./Home.css";
-import logo from "../web_design/MainFinal/logo.png";
-import ghalib from "../web_design/MainFinal/galib.jpg";
-import data from "./data";
-import HomeCard from "./home-card";
-
-const Home=()=> {
-  
-  return (
-    
-    <div className="home-body">
-     <div style={{backgroundColor:"white"}}>
-        <div
-        className="container-fluid d-flex flex-column justify-content-center align-items-center"
-        id="hero">
->>>>>>> 719706436a4a02ecd900d4d7a2e5b2a51800f211
         <div
           className="container-fluid d-flex flex-column justify-content-center align-items-center py-5"
           id="content"
         >
           <div className="row-fluid text-align-center">
-<<<<<<< HEAD
             <img className="img-fluid" src={logo} />
           </div>
           <div className="row-fluid text-align-center">
@@ -55,22 +36,12 @@ const Home=()=> {
           </div>
           <div className="row-fluid text-align-center">
             <h2>DEPARTMENT OF COMPUTER SCIENCE</h2>
-=======
-            <img className="img-fluid" src={logo} style={{position:"relative"}} />
-          </div>
-          <div className=" text-align-center">
-            <p style={{fontSize:"50px",fontFamily:"Times New Roman",fontWeight:"lighter",color:"white"}}>MASTER OF COMPUTER APPLICATIONS</p>
-          </div>
-          <div className="row-fluid text-align-center">
-            <h2 style={{fontWeight:"lighter",whiteSpace:"initial"}}>DEPARTMENT OF COMPUTER SCIENCE</h2>
->>>>>>> 719706436a4a02ecd900d4d7a2e5b2a51800f211
           </div>
           <div className="row-fluid text-align-center">
             <h2>JAMIA MILLIA ISLAMIA</h2>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
       <div className="row">
         <div
           className="col-sm-6 d-flex flex-column justify-content-center align-items-center p-3"
@@ -86,20 +57,6 @@ const Home=()=> {
             </div>
           </div>
           <div className="row pt-3" id="aboutContent">
-=======
-      </div>
-      <div className="d-flex justify-content-between mid-home-container  " >
-        <div style={{width:"50%" ,paddingRight:"5vh"}} id="ghalib" >
-          <img className="img-fluid"
-           src={ghalib} />
-        </div>
-        <div style={{width:"40%"}} className="d-flex flex-sm-column justify-content-between ">
-            <div style={{width:"70%"}} id="aboutHeading">
-              <h4>About</h4>
-              <h4 >JAMIA MILLIA ISLAMIA</h4>
-            </div>
-          <div style={{width:"100%"}} className=" py-4  " id="aboutContent">
->>>>>>> 719706436a4a02ecd900d4d7a2e5b2a51800f211
             <p>
               Jamia Millia Islamia, established in 1920, is a prestigious
               Central University, located in New Delhi and accredited by NAAC
@@ -119,7 +76,6 @@ const Home=()=> {
               October 2010 and 2013, respectively.
             </p>
           </div>
-<<<<<<< HEAD
           <div className="row d-flex flex-sm-row justify-content-start pt-3">
             <div className="col-sm-5">
               <button type="button" id="aboutButton">
@@ -173,36 +129,12 @@ const Home=()=> {
               backgroundImage={pastRecBg}
             />
           </div>
-=======
-          <div className=" pt-3" style={{width:"50%",fontWeight:"lighter",fontFamily:"Roboto"}}>
-              <button type="button" id="aboutButton">
-                GO TO WEBSITE
-              </button>
-          </div>
-        </div>
-      </div>
-      <div className="p-4 mt-5 homestyleCard">
-        <div className="optionContainer">
-          
-            {data.home.map(res=>
-            <div className="home-card-box ">
-            <HomeCard
-              id={res.id}
-              icon={res.icon}
-              message={res.message}
-              bgImage={res.bgImage}
-              pathLink={res.pathLink}
-
-            /> </div>)}
-         
->>>>>>> 719706436a4a02ecd900d4d7a2e5b2a51800f211
         </div>
       </div>
     </div>
   );
 }
 
-<<<<<<< HEAD
 function Options(props) {
   return (
     <div
@@ -218,6 +150,3 @@ function Options(props) {
   );
 }
 export default Home;
-=======
-export default Home;
->>>>>>> 719706436a4a02ecd900d4d7a2e5b2a51800f211
