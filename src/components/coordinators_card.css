@@ -7,7 +7,7 @@
     border-radius: 30px  !important;
     padding: 5px;
     box-shadow: 0px 1px 10px #2eaddb;
-    background-image: url('../web_design/MainFinal/ourteam.png');
+    /* background-image: url('../web_design/MainFinal/ourteam.png'); */
     background-repeat: no-repeat;
     background-size: cover;
 }

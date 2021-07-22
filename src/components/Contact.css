@@ -8,13 +8,14 @@
 }
 .contact__card{
     background-color: white;
-    border-radius: 5%;
+    
     margin-left: 5%;
     margin-right: 5%;
 }
 .faq__card{
     background-color: white;
-    border-radius: 5%;
+    /* border-radius: 20px; */
+    /* border-radius: 5%; */
 }  
 .contact__form{
     border-left-color: #0079a5;
