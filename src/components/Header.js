@@ -93,12 +93,11 @@ import {Collapse,
                   Placement Team
               </DropdownItem>
               
-              <DropdownItem href="/message">
+              <DropdownItem href="curriculum">
                   Syllabus
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
-          <NavItem  className="nav-item"><NavLink href="/login">Login</NavLink></NavItem>
 
         </Nav>
       </Collapse>
