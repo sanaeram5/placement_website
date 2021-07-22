@@ -71,7 +71,7 @@ import {Collapse,
             <DropdownToggle nav caret >
               More
             </DropdownToggle>
-            <DropdownMenu right >
+            <DropdownMenu left >
               <DropdownItem  href="/student_profile">
                 Student Profile
               </DropdownItem>

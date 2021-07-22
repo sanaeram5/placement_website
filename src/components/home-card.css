@@ -25,12 +25,18 @@
     font-weight: bold;
   }
 
-  .card-buttons{
+  .btn-7{
     border-radius:30px;
     background-color:white;
     padding:10px 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     color:rgb(18, 74, 107)
+  }
+  .btn-7:hover{
+    box-shadow: inset 0px 50px 0px 50px rgb(18, 74, 107); 
+     transition:0.5s;
+     border: 1px solid white;
+    color: white;
   }
   

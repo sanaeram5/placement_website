@@ -8,7 +8,7 @@ import "./Faculty.css";
 
 const CoordinatorsCard = props => {
     return (
-        <div className="card mb-3">
+        <div className="card-coordinators mb-3">
 
             <div className="row no-gutters ">
 

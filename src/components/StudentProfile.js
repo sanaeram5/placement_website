@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+    import React, {useState} from "react";
 import  "./StudentProfile.css";
 import Header from './Header';
 import PageHeader from './PageHeader';
@@ -22,7 +22,6 @@ const StudentProfile = () => {
                             <li className="tab_btn"><a className="btn t_btn" data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
                         </ul>
                     </div>
-                
 
                     <div class="tab-content">
                         <div id="home" class="tab-pane fade in active">

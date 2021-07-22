@@ -14,7 +14,7 @@ const homeCard=(props)=> {
                  }}>
         <img className="card-icons" src={props.icon} />
         <h5 className="card-message" >{props.message}</h5>
-        <Link to={props.pathLink}><button className="card-buttons" type="button">
+        <Link to={props.pathLink}><button className="btn-7" >
           SEE MORE
         </button></Link>
       </div>
