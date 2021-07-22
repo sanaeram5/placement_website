@@ -1,61 +1,49 @@
 import React from "react";
-import Header from "./Header";
 import "./Home.css";
 import logo from "../web_design/MainFinal/logo.png";
 import ghalib from "../web_design/MainFinal/galib.jpg";
-import messageIcon from "../web_design/MainFinal/messageicon.png";
-import messageBg from "../web_design/MainFinal/message.png";
-import ourTeamIcon from "../web_design/MainFinal/ourteamicon.png";
-import ourTeamBg from "../web_design/MainFinal/ourteam.png";
-import pastRecIcon from "../web_design/MainFinal/pastrecicon.png";
-import pastRecBg from "../web_design/MainFinal/pastrecruiter.png";
-import studentIcon from "../web_design/MainFinal/studenticon.png";
-import studentBg from "../web_design/MainFinal/student.png";
-import syllabusIcon from "../web_design/MainFinal/syllabusicon.png";
-import syllabusBg from "../web_design/MainFinal/syllabus.png";
-import teacherIcon from "../web_design/MainFinal/teachericon.png";
-import teacherBg from "../web_design/MainFinal/teacher.png";
+import data from "./data";
+import HomeCard from "./home-card";
 
-export default function Home() {
+const Home=()=> {
+  
   return (
-    <div>
-      <div
+    
+    <div className="home-body">
+     <div style={{backgroundColor:"white"}}>
+        <div
         className="container-fluid d-flex flex-column justify-content-center align-items-center"
-        id="hero"
-      >
+        id="hero">
         <div
           className="container-fluid d-flex flex-column justify-content-center align-items-center py-5"
           id="content"
         >
           <div className="row-fluid text-align-center">
-            <img className="img-fluid" src={logo} />
+            <img className="img-fluid" src={logo} style={{position:"relative"}} />
+          </div>
+          <div className=" text-align-center">
+            <p style={{fontSize:"50px",fontFamily:"Times New Roman",fontWeight:"lighter",color:"white"}}>MASTER OF COMPUTER APPLICATIONS</p>
           </div>
           <div className="row-fluid text-align-center">
-            <h1>MASTER OF COMPUTER APPLICATIONS</h1>
-          </div>
-          <div className="row-fluid text-align-center">
-            <h2>DEPARTMENT OF COMPUTER SCIENCE</h2>
+            <h2 style={{fontWeight:"lighter",whiteSpace:"initial"}}>DEPARTMENT OF COMPUTER SCIENCE</h2>
           </div>
           <div className="row-fluid text-align-center">
             <h2>JAMIA MILLIA ISLAMIA</h2>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div
-          className="col-sm-6 d-flex flex-column justify-content-center align-items-center p-3"
-          id="ghalib"
-        >
-          <img className="img-fluid" src={ghalib} />
+      </div>
+      <div className="d-flex justify-content-between mid-home-container  " >
+        <div style={{width:"50%" ,paddingRight:"5vh"}} id="ghalib" >
+          <img className="img-fluid"
+           src={ghalib} />
         </div>
-        <div className="col-sm-6 d-flex flex-column justify-content-center align-items-center p-5">
-          <div className="row d-flex flex-sm-row justify-content-start py-3">
-            <div className="col-sm-7" id="aboutHeading">
-              <h3>About</h3>
-              <h3>JAMIA MILLIA ISLAMIA</h3>
+        <div style={{width:"40%"}} className="d-flex flex-sm-column justify-content-between ">
+            <div style={{width:"70%"}} id="aboutHeading">
+              <h4>About</h4>
+              <h4 >JAMIA MILLIA ISLAMIA</h4>
             </div>
-          </div>
-          <div className="row pt-3" id="aboutContent">
+          <div style={{width:"100%"}} className=" py-4  " id="aboutContent">
             <p>
               Jamia Millia Islamia, established in 1920, is a prestigious
               Central University, located in New Delhi and accredited by NAAC
@@ -75,76 +63,31 @@ export default function Home() {
               October 2010 and 2013, respectively.
             </p>
           </div>
-          <div className="row d-flex flex-sm-row justify-content-start pt-3">
-            <div className="col-sm-5">
+          <div className=" pt-3" style={{width:"50%",fontWeight:"lighter",fontFamily:"Roboto"}}>
               <button type="button" id="aboutButton">
                 GO TO WEBSITE
               </button>
-            </div>
           </div>
         </div>
       </div>
-      <div className="row P-3" id="options">
-        <div className="row" id="optionContainer">
-          <div className="col-sm-4 p-5 mt-5">
-            <Options
-              icon={teacherIcon}
-              message="TEACHERS' PROFILE"
-              backgroundImage={teacherBg}
-            />
-          </div>
-          <div className="col-sm-4 p-5 mt-5">
-            <Options
-              icon={ourTeamIcon}
-              message="OUR TEAM"
-              backgroundImage={ourTeamBg}
-            />
-          </div>
-          <div className="col-sm-4 p-5 mt-5">
-            <Options
-              icon={syllabusIcon}
-              message="SYLLABUS"
-              backgroundImage={syllabusBg}
-            />
-          </div>
-          <div className="col-sm-4 p-5">
-            <Options
-              icon={studentIcon}
-              message="STUDENTS' PROFILE"
-              backgroundImage={studentBg}
-            />
-          </div>
-          <div className="col-sm-4 p-5">
-            <Options
-              icon={messageIcon}
-              message="MESSAGE"
-              backgroundImage={messageBg}
-            />
-          </div>
-          <div className="col-sm-4 p-5">
-            <Options
-              icon={pastRecIcon}
-              message="PAST RECRUITERS"
-              backgroundImage={pastRecBg}
-            />
-          </div>
+      <div className="p-4 mt-5 homestyleCard">
+        <div className="optionContainer">
+          
+            {data.home.map(res=>
+            <div className="home-card-box ">
+            <HomeCard
+              id={res.id}
+              icon={res.icon}
+              message={res.message}
+              bgImage={res.bgImage}
+              pathLink={res.pathLink}
+
+            /> </div>)}
+         
         </div>
       </div>
     </div>
   );
 }
 
-function Options(props) {
-  return (
-    <div
-      className="optionsCard d-flex flex-column align-items-center justify-content-center py-5 px-2"
-      style={{ backgroundImage: `url(${props.backgroundImage})` }}
-    >
-      <img className="img-fluid p-2" src={props.icon} />
-      <h5 className="py-2">{props.message}</h5>
-      <button classname="py-3" type="button">
-        SEE MORE
-      </button>
-    </div>
-  );
-}
+export default Home;

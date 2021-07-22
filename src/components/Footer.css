@@ -16,6 +16,13 @@
 
 }
 
+.footer-top-home{
+    background-color:#ECFAFE;
+    width: 100%;
+    height: 150px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
 .footer-main{
     padding:30px;
     display: flex;

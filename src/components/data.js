@@ -24,6 +24,19 @@ import graph21 from '../web_design/past_placement/2021-bar.png'
 import graph20 from '../web_design/past_placement/2020-bar.png'
 import graph19 from '../web_design/past_placement/2019-bar.png'
 
+import messageIcon from "../web_design/MainFinal/messageicon.png";
+import messageBg from "../web_design/MainFinal/message.png";
+import ourTeamIcon from "../web_design/MainFinal/ourteamicon.png";
+import ourTeamBg from "../web_design/MainFinal/ourteam.png";
+import pastRecIcon from "../web_design/MainFinal/pastrecicon.png";
+import pastRecBg from "../web_design/MainFinal/pastrecruiter.png";
+import studentIcon from "../web_design/MainFinal/studenticon.png";
+import studentBg from "../web_design/MainFinal/student.png";
+import syllabusIcon from "../web_design/MainFinal/syllabusicon.png";
+import syllabusBg from "../web_design/MainFinal/syllabus.png";
+import teacherIcon from "../web_design/MainFinal/teachericon.png";
+import teacherBg from "../web_design/MainFinal/teacher.png";
+
 export default {
 
 
@@ -168,6 +181,39 @@ export default {
         "graph": graph19
 
     }
-    ]
+    ],
+
+    "home":[{
+        "icon":teacherIcon,
+        "message":"TEACHER'S PROFILE",
+        "bgImage":teacherBg,
+        "pathLink":"/faculty"
+    },
+    {
+        "icon":ourTeamIcon,
+        "message":"OUR TEAM",
+        "bgImage":ourTeamBg,
+        "pathLink":"/coordinators"
+    },{
+        "icon":syllabusIcon,
+        "message":"SYLLABUS",
+        "bgImage":syllabusBg,
+        "pathLink":"/curriculum"
+    },{
+        "icon":studentIcon,
+        "message":"STUDENT'S PROFILE",
+        "bgImage":studentBg,
+        "pathLink":"/student_profile"
+    },{
+        "icon":messageIcon,
+        "message":"MESSAGE",
+        "bgImage":messageBg,
+        "pathLink":"/message"
+    },{
+        "icon":pastRecIcon,
+        "message":"PAST RECRUITERS",
+        "bgImage":pastRecBg,
+        "pathLink":"/recruiters"
+    },]
 
 };

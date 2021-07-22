@@ -7,7 +7,6 @@ import PageHeader from './PageHeader';
 const Faculty = () => {
   return (
     <div>
-        <Header/>
         <div className="container">
 
           <PageHeader page ="Faculty Profile" />   

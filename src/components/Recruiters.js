@@ -41,7 +41,6 @@ const Recruiters = ()=> {
                 </div>
                 ))}
                 </div> 
-                <Footer/>
             </div>
         );
     }

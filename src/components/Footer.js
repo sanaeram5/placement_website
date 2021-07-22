@@ -1,16 +1,21 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './Footer.css'
 import jamia from '../web_design/MainFinal/logo.png';
 import linkedin from  '../web_design/MainFinal/linkedin.png';
 import insta from '../web_design/MainFinal/instagram.png';
 import email from '../web_design/MainFinal/email.png';
 import {Link} from 'react-router-dom';
+import { createBrowserHistory } from "history";
 
 const Footer = ()=> {
+       const history=createBrowserHistory();
+const abc=true;
+        
+    
         return(
             <>
             <div className="footer-container">
-                <div className="footer-top"></div>
+                <div className={history.location.pathname==="/"?"footer-top-home":"footer-top"}></div>
                 <div className="footer-main">
                     <div style={{width:"25%"}}>
                         <img src={jamia} style={{width:"58%",margin:"30px 0px 35px 50px", position:"relative"}}/>
