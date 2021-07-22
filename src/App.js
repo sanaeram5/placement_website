@@ -12,6 +12,7 @@ import Faq from './components/Faq';
 import Message from './components/Message';
 import Recruiters from './components/Recruiters';
 import StudentProfile from './components/StudentProfile';
+import Curriculum from './components/Curriculum';
 
 const App=()=>{
     return(
@@ -27,7 +28,8 @@ const App=()=>{
             <Route path="/faq" exact component={Faq}/>
             <Route path="/message" exact component={Message}/>
             <Route path="/recruiters" exact component={Recruiters}/>
-            <Route path="/profile" exact component={StudentProfile}/>
+            <Route path="/student_profile" exact component={StudentProfile}/>
+            <Route path="/curriculum" exact component={Curriculum}/>
         </Router>
 
       </>
