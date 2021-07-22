@@ -76,7 +76,7 @@
     transition: transform .4s;
 }
 .graph:hover, .pie:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     background-image:linear-gradient(#0079A5, #0B0538);
     border-radius: 10px;
 }

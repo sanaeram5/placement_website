@@ -12,7 +12,7 @@ function Faq() {
             <PageHeader page="PLACEMENT TEAM"/>
           </section>
           <div className="container-fluid contact__container">
-              <div className=" contact__card">
+              <div className=" contact__card ">
                     <div className="row">
                       <div className="col-md-6 col-xs-12">
                         <img src={contactImage} alt="" width="100%" height="100%" />
@@ -45,7 +45,7 @@ function Faq() {
           <div className="container-fluid faq__container d-flex justify-content-center">
             <div className="card faq__card pt-5 pb-5" style={{width:'60%'}}>
             <div class="faq">
-            <Accordion defaultActiveKey="0" style={{width:'150%', alignItems:'center'}}>
+            <Accordion defaultActiveKey="0" style={{width:'90%', paddingLeft:'10%', alignItems:'center'}}>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="0">
                   faq1

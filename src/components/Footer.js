@@ -31,7 +31,7 @@ const abc=true;
                     <div className="footer-sub-containers"  style={{width:"28%"}}>
                         <h3 className="footer-heading">Placement Coordinators :</h3>
                         <div><h5 style={{ fontWeight:"bold",whiteSpace: "initial"}}>Ariba Ather</h5><p style={{fontSize:"12px"}}>+91 78950 80552</p></div>
-                        <div><h5 style={{ fontWeight:"bold",whiteSpace: "initial"}}>Zia Haider Naqvi</h5><p style={{fontSize:"12px"}}>+91 99907 66146</p></div>
+                        <div><h5 style={{ fontWeight:"bold",whiteSpace: "initial"}}>Jawed Alam</h5><p style={{fontSize:"12px"}}>+91 77590 29463</p></div>
                                               
                     </div><div className="footer-sub-containers" style={{width:"22%"}}>
                         <h3 className="footer-heading">Location :</h3>
