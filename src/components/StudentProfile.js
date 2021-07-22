@@ -25,7 +25,6 @@ const StudentProfile = () => {
 
                     <div class="tab-content">
                         <div id="home" class="tab-pane fade in active">
-                            <h3>HOME</h3>
 
                             <Row>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
