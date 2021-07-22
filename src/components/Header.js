@@ -98,6 +98,7 @@ import {Collapse,
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
+          <NavItem  className="nav-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</NavItem>
 
         </Nav>
       </Collapse>
