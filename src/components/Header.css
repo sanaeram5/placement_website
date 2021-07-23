@@ -22,22 +22,24 @@
   width: 100% !important;
   padding: 10px !important;
   color: #ffff !important;
-  transition: 0.2s;
+  transition: .8s;
 
 }
 
 .nav-link{
   padding: 0px 20px !important;
+  transition: .5s;
 
 }
 .nav-link:hover{
-  box-shadow: inset 0px 50px 0px 50px white; 
+  box-shadow: inset 50px 0px 50px 50px white; 
    transition:0.8s;
   color: black;
+
 }
 .dropdown-item:hover{
   box-shadow: inset 50px 50px 50px 50px white; 
-  transition:000.8s;
+  transition:000.5s;
   color: black !important;
 }
 

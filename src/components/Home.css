@@ -18,9 +18,7 @@
     box-shadow: 15px 15px 30px rgb(128, 128, 128, 0.15);
     border-bottom-left-radius: 100% 50%;
     border-bottom-right-radius: 100% 50%;
-    z-index: 1;
-
-  }
+    }
 
   .mid-home-container{
     border-bottom-left-radius: 100% 40%;
@@ -73,17 +71,20 @@
   #aboutContent p {
     text-align: justify;
   }
-  #aboutButton {
+  .aboutButton {
     background: linear-gradient(#0079a5, #143d61);
     color: #fff;
     font-size: 18px;
-    height: 50px;
     width: 100%;
-    padding: 0px 20px;
+    padding: 10px 20px;
     border-radius: 25px;
-    box-shadow: 0px 20px 30px #ecfafe;
   }
 
+  .aboutButton:hover{
+    box-shadow: inset 0px 50px 0px 50px white; 
+    transition:0.5s;
+    color: rgb(43, 52, 58);
+  }
   .homestyleCard{
     background-color: #ECFAFE;
     padding:0 ;

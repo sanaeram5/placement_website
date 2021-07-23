@@ -17,14 +17,14 @@ const StudentProfile = () => {
             <section className="mt-5">
                 <Container>
                     <div className="nav_heads">
-                        <ul class="nav nav-tabs" id="nav_head" >
-                            <li class="active tab_btn"><a className="btn t_btn" data-toggle="tab" href="#home" >BATCH 2019-2022</a></li>
+                        <ul className="nav nav-tabs" id="nav_head" >
+                            <li className="active tab_btn"><a className="btn t_btn" data-toggle="tab" href="#home" >BATCH 2019-2022</a></li>
                             <li className="tab_btn"><a className="btn t_btn" data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
-                        </ul>
+                        </ul>-
                     </div>
 
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
+                    <div className="tab-content">
+                        <div id="home" className="tab-pane fade in active">
 
                             <Row>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
@@ -32,63 +32,10 @@ const StudentProfile = () => {
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
                             </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            <Row>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
+                            
                         </div>
 
-                        <div id="menu1" class="tab-pane fade">
+                        <div id="menu1" className="tab-pane fade">
 
                         <Row>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>

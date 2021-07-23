@@ -47,7 +47,7 @@ function MyVerticallyCenteredModal(props) {
 
 const StudentProfileCard = (props) => {
 
-    const [modalShow, setModalShow] = useState(false);
+    const [modalShow, setModalShow] = useState(true);
 
     return(
         <>
@@ -60,7 +60,7 @@ const StudentProfileCard = (props) => {
                         </Card.Text>
                     </Card.Body>
     </Card>*/}
-                <div className="card-coordinators mb-3" onClick={() => setModalShow(true)}>
+                <div className="card-coordinators mb-3" onClick={() => setModalShow(false)}>
 
             <div className="row no-gutters ">
 

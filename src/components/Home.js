@@ -4,6 +4,7 @@ import logo from "../web_design/MainFinal/logo.png";
 import ghalib from "../web_design/MainFinal/galib.jpg";
 import data from "./data";
 import HomeCard from "./home-card";
+import { Link } from "react-router-dom";
 
 const Home=()=> {
   
@@ -64,9 +65,9 @@ const Home=()=> {
             </p>
           </div>
           <div className=" pt-3" style={{width:"50%",fontWeight:"lighter",fontFamily:"Roboto"}}>
-              <button type="button" id="aboutButton">
+              <Link to="/about"><button className="aboutButton">
                 GO TO WEBSITE
-              </button>
+              </button></Link>
           </div>
         </div>
       </div>

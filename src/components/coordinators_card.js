@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./coordinators_card.css";
 import "./Faculty.css";
 

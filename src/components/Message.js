@@ -20,7 +20,7 @@ const Message=()=> {
                 <div className="panel-body no-padding">
                   <div className="list-group scroll">
                     <div id="faculty" >
-                    <a className="sublist list-group-item no-vertical-border" href="#suri"><strong>Dr. Rihan Khan Suri </strong>| University Placement Officer</a>
+                    <a className="sublist list-group-item no-vertical-border" href="#suri"><strong>Prof. Z. A. Jaffery </strong>| University Placement Officer</a>
                       <a className="sublist list-group-item no-vertical-border" href="#quadri"><strong>Dr. S. M. K. Quadri </strong>| Professor &amp; Head</a>
                      </div>
                   </div>

@@ -17,7 +17,6 @@ import Curriculum from './components/Curriculum';
 const App=()=>{
     return(
       <>
-      <Router>
         <Header/>
             <Route path="/" exact component={Home}/>
             <Route path="/about" exact component={About}/>
@@ -29,7 +28,6 @@ const App=()=>{
             <Route path="/recruiters" exact component={Recruiters}/>
             <Route path="/student_profile" exact component={StudentProfile}/>
             <Route path="/curriculum" exact component={Curriculum}/>
-        </Router>
       </>
     )
 };
