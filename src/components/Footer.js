@@ -14,25 +14,25 @@ const Footer = ()=> {
             <div className="footer-container">
                 <div className={location.pathname==="/"?"footer-top-home":"footer-top"}></div>
                 <div className="footer-main">
-                    <div style={{width:"25%"}}>
-                        <img src={jamia} style={{width:"58%",margin:"30px 0px 35px 50px", position:"relative"}}/>
+                    <div  >
+                        <img className="footer-image" src={jamia} style={{width:"80%"}}/>
                     </div>
 
-                    <div className="footer-sub-containers" style={{width:"25%"}}>
+                    <div className="footer-sub-containers">
                         <h3 className="footer-heading">Contact Us :</h3>
-                        <div className="footer-social-media"><img src={linkedin}className="social-icons"    /><span>www.linkedin.com</span></div>
+                        <div className="footer-social-media"><img src={linkedin}className="social-icons"/><span>www.linkedin.com</span></div>
                         <div  className="footer-social-media"><img src={insta} className="social-icons"></img><span>www.instagram.com</span></div>
                         <div className="footer-social-media"><img src={email} className="social-icons"></img><span>placement_website@jmi.com</span></div>
                         
                     </div>
-                    <div className="footer-sub-containers"  style={{width:"28%"}}>
+                    <div className="footer-sub-containers"  >
                         <h3 className="footer-heading">Placement Coordinators :</h3>
                         <div><h5 className="footer-coordinator">Ariba Ather</h5><p style={{fontSize:"12px"}}>+91 78950 80552</p></div>
                         <div><h5 className="footer-coordinator">Jawed Alam</h5><p style={{fontSize:"12px"}}>+91 77590 29463</p></div>
                                               
-                    </div><div className="footer-sub-containers" style={{width:"22%"}}>
+                    </div><div className="footer-sub-containers">
                         <h3 className="footer-heading">Location :</h3>
-                        <div><p style={{whiteSpace: "initial"}}>Maulana Mohammad Jauhar Ali Marg,Jamia Nagar, New Delhi</p></div>
+                        <div><p style={{whiteSpace: "initial" ,width:"60%"}}>Maulana Mohammad Jauhar Ali Marg,</p><p>Jamia Nagar, New Delhi</p></div>
                         <div><a href="www.jmi.ac.in" target="_blank" style={{textDecoration:"none", color:"white"}}><h5>www.jmi.ac.in</h5></a></div>
                         <div><img></img></div>
                         
