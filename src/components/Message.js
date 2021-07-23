@@ -3,7 +3,7 @@ import React from "react";
 import Header from './Header'
 //import Css file
 import "./Message.css";
-import image_suri from '../images/rsuri.jpg'
+import image_suri from '../images/prof.png'
 import image_quadri from '../images/squadri.jpg'
 
 const Message=()=> {
@@ -33,23 +33,19 @@ const Message=()=> {
             <div id="suri">
               
               <img src={image_suri} className="faculty" alt=""/>
-              <h3><strong>Dr. Rihan Khan Suri</strong></h3>
+              <h3><strong>Prof. Z. A. Jaffery</strong></h3>
               <h4><strong>University Placement Officer</strong></h4><br/>
               <p>
-                <strong>E-mail</strong> : rsuri@jmi.ac.in<br/>
-                <strong>Mobile</strong> : +91-991-003-6980<br/>
+                <strong>E-mail</strong> : zjaffery@jmi.ac.in<br/>
+                <strong>Mobile</strong> : +91-986-879-0325<br/>
               </p><br/>
               <strong>Message</strong>
-                <p>The Indian Economy continues to record appreciable growth in all the sectors, resulting in tremendous
-                demand for skilled personnel. In addition to the traditional avenues of employment in public and private
-                sectors, there is now an increasing demand from the growing corporate sector for well trained and skilled
-                human personnel. Jamia Millia Islamia has always harnessed and developed the intrinsic talent and potential
-                of all its students. Besides our commitment to academic excellence, it also provides ample opportunities to
-                students to excel in field of sports and extra-curricular activities. Students are academically competent with a
-                wide vision of life and an inquisitive mind which helps them explore new frontiers of knowledge.
-                  </p>
-              <p>It is indeed a matter of great pride to invite you to participate in our campus recruitment process. Since its
-                  inception, Jamia Millia Islamia has always been conscious of its responsibility to the nation. With its stringent selection procedure, it selects the best students from all over India. Three years of rigorous course curriculum and numerous extra-curricular activities shape the personality of our students and what we get after this span of time at the university are intelligent, sensitive human beings aware of both their responsibilities and right.</p>
+                <p>
+                Jamia Millia Islamia, New Delhi, is a leading University of higher education in India, with proven track record and performance. It is our constant endeavour, to provide knowledge based services to satisfy the needs of the society and the industries. The objective of these efforts is to develop potential professionals for the development and growth of our nation.
+                </p>
+              <p>All the students recruited from the Department of Computer Science have proved to be a great asset to the companies/organizations they joined in the recent past. We have witnessed these students achieve greater heights in their life from trainee to CEO’s to Entrepreneurs. I am certain that our present students would maintain the same level of performance and prove to be a great asset to their recruiting organizations/companies.</p>
+              <p>Our placement office is well equipped with the facilities that are required for smooth conduct of Training and Placement recruitment activities. I am sure that our students will find it useful in securing the placement of their choice. I congratulate the placement coordinators of the Department for their efforts that makes the campus placement drives smooth and successful.</p>
+              <p>I wish the on-campus recruitment programme a great success and shall always look forward for mutually beneficial relationships with the recruiters of our students.</p>
            <hr></hr>
            <br></br>
             <div id="quadri">

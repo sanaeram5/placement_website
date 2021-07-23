@@ -7,7 +7,6 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 const Curriculum = () => {
     return(
         <>
-            <Header/>
 
             <section className="container">
                 <PageHeader page="Curriculum"/>
@@ -18,7 +17,7 @@ const Curriculum = () => {
                 <Container>
                     <div className="nav_heads">
                         <ul class="nav nav-tabs" id="nav_head" >
-                            <li class="active tab_btn"><a className="btn " data-toggle="tab" href="#home" style={{color:'white', fontSize:'1.1em'}}>BATCH 2019-2022</a></li>
+                            <li class="active tab_btn"><a className="btn " data-toggle="tab" href="#home">BATCH 2019-2022</a></li>
                             <li className="tab_btn"><a className="btn " data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
                         </ul>
                     </div>
