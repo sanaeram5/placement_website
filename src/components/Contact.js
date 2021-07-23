@@ -48,34 +48,39 @@ function Faq() {
             <Accordion defaultActiveKey="0" style={{width:'90%', paddingLeft:'10%', alignItems:'center'}}>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="0">
-                  faq1
+                How to gain more information about JMI or Department's?
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                  <Card.Body>inside faq1</Card.Body>
+                  <Card.Body>To know more about Jamia Millia Islamia: <a href="http://jmi.ac.in" target="blank">jmi.ac.in </a></Card.Body>
                 </Accordion.Collapse>
               </Card>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="1">
-                  faq2
+                More about Dept. of Computer Science
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                  <Card.Body>inside faq2</Card.Body>
+                  <Card.Body>To know more about the Department of Computer Science: <a href="https://www.jmi.ac.in/computerscience" target="blank">Click Here </a></Card.Body>
                 </Accordion.Collapse>
               </Card>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="2">
-                  faq3
+                Placement Brochure
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                  <Card.Body>inside faq4</Card.Body>
+                  <Card.Body><a href="#">Download the Placement Brochure</a> of the Department of Computer Science, MCA Batch of 2022.</Card.Body>
                 </Accordion.Collapse>
               </Card>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
-                  faq4
+                How to reach / contact DCS?
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="3">
-                  <Card.Body>inside faq4</Card.Body>
+                  <Card.Body><div>Department of Computer Science,<br/>
+                    Jamia Millia Islamia,<br/>
+                    Jamia Nagar,<br/>
+                    New Delhi-110025<br/>
+                    Email: computerscience@jmi.ac.in<br/></div>
+                    </Card.Body>
                 </Accordion.Collapse>
               </Card>
             </Accordion>
