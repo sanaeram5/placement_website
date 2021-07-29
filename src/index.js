@@ -6,12 +6,13 @@ import {BrowserRouter as Router,Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ScrollToTop from './components/scrollToTop';
+// import ScrollToTop from './components/scrollToTop';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    <ScrollToTop/>
+    {/* <ScrollToTop/> */}
+    
     <App />
     <Footer/>
     </Router>

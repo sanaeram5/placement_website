@@ -11,7 +11,7 @@
     background-color: #fafafa !important;
     border-radius: 25px !important;
     height: 100%;
-    background-image: url('../web_design/card-bg-rotated.jpg');
+    /* background-image: url('../web_design/card-bg-rotated.jpg'); */
     background-size: cover;
 
     box-shadow: 2px 4px 3px #000000; 

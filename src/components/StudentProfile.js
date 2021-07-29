@@ -1,4 +1,4 @@
-    import React, {useState} from "react";
+import React, {useState} from "react";
 import  "./StudentProfile.css";
 import Header from './Header';
 import PageHeader from './PageHeader';
@@ -27,12 +27,11 @@ const StudentProfile = () => {
                         <div id="home" className="tab-pane fade in active">
 
                             <Row>
+                                <Profile title="Jaanbaaz " text="Mca 4th sem" image={jpic}/>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
                                 <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                                <Profile title="Jaanbaaz Akhtar" text="Mca 4th sem" image={jpic}/>
-                            </Row>
-                            
+                            </Row>    
                         </div>
 
                         <div id="menu1" className="tab-pane fade">

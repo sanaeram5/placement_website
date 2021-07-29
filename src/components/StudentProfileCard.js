@@ -6,44 +6,44 @@ import linkedIn from "./../web_design/MainFinal/linkedin2.png";
 import gmail from "./../web_design/MainFinal/gmail2.png";
 import github from "./../web_design/MainFinal/github.png";
 
-function MyVerticallyCenteredModal(props) {
+// function MyVerticallyCenteredModal(props) {
 
-    return (
-      <Modal
-        {...props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-      >
-        <Modal.Body style={{padding:'0px'}} className="card-coordinators mb-3">
-              <div className="modal-head" style={{textAlign:'center', paddingTop:'2%', paddingBottom:'2%'}}>
-                <h4>Jaanbaaz Akhtar</h4>
-                <h6>19MCA019</h6>
-              </div>
-          <Row>
-            <Col md={4} sm={6} xs={12}>
-              <img src={jpic} alt="" width="80%" height="100%" style={{marginLeft:'10%', borderRadius:'25px'}}/>
-            </Col>
-            <Col md={8} sm={6} xs={12}>
+//     return (
+//       <Modal
+//         {...props}
+//         size="lg"
+//         aria-labelledby="contained-modal-title-vcenter"
+//         centered
+//       >
+//         <Modal.Body style={{padding:'0px'}} className="card-coordinators mb-3">
+//               <div className="modal-head" style={{textAlign:'center', paddingTop:'2%', paddingBottom:'2%'}}>
+//                 <h4>Jaanbaaz Akhtar</h4>
+//                 <h6>19MCA019</h6>
+//               </div>
+//           <Row>
+//             <Col md={4} sm={6} xs={12}>
+//               <img src={jpic} alt="" width="80%" height="100%" style={{marginLeft:'10%', borderRadius:'25px'}}/>
+//             </Col>
+//             <Col md={8} sm={6} xs={12}>
               
-              <h3>Technical Skills:</h3>
-              <ul className="d-flex align-items-center">
-                <li className="skill">HTML</li>
-                <li className="skill">CSS</li>
-                <li className="skill">JAVA</li>
-                <li className="skill">C++</li>
-              </ul>
-            </Col>
-          </Row>
-          <div className="social-links pl-5">
-            <p><a href="#"><span><img src={linkedIn} width="25px"/></span> linkedin link</a></p>
-            <p><a href="#"><span><img src={gmail} width="25px"/></span> gmail link</a></p>
-            <p><a href="#"><span><img src={github} width="25px"/></span>github link</a></p>
-          </div>
-        </Modal.Body>
-      </Modal>
-    );
-  }
+//               <h3>Technical Skills:</h3>
+//               <ul className="d-flex align-items-center">
+//                 <li className="skill">HTML</li>
+//                 <li className="skill">CSS</li>
+//                 <li className="skill">JAVA</li>
+//                 <li className="skill">C++</li>
+//               </ul>
+//             </Col>
+//           </Row>
+//           <div className="social-links pl-5">
+//             <p><a href="#"><span><img src={linkedIn} width="25px"/></span> linkedin link</a></p>
+//             <p><a href="#"><span><img src={gmail} width="25px"/></span> gmail link</a></p>
+//             <p><a href="#"><span><img src={github} width="25px"/></span>github link</a></p>
+//           </div>
+//         </Modal.Body>
+//       </Modal>
+//     );
+//   }
 
 const StudentProfileCard = (props) => {
 
@@ -60,7 +60,7 @@ const StudentProfileCard = (props) => {
                         </Card.Text>
                     </Card.Body>
     </Card>*/}
-                <div className="card-coordinators mb-3" onClick={() => setModalShow(false)}>
+            <div className="card-coordinators mb-3" onClick={() => setModalShow(false)}>
 
             <div className="row no-gutters ">
 
