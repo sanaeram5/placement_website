@@ -23,12 +23,9 @@ background-color: green !important;
   width: 150px;
   height: 150px;
   box-shadow: 0px 1px 10px #535353;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+ 
 }
-.rounded-rect:hover{
-    transform: rotateY(360deg);
-}
+
 
 .card-name {
     background: rgb(0, 140, 255);
