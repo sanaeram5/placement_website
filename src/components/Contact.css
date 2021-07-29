@@ -7,18 +7,34 @@
     background-color: #eaf2f8;
 }
 .contact__card{
+
     background-color: white;
-    
     margin-left: 5%;
     margin-right: 5%;
 }
-.faq__card{
-    background-color: white;
+
+.main-container-form{
+    display: flex;
+
+}
+.card-header{
     /* border-radius: 20px; */
     /* border-radius: 5%; */
+    cursor: pointer;
 }  
+.form-group{
+    width: 80%;
+}
+
+.image-container{
+    width: 60%;
+}
 .contact__form{
-    border-left-color: #0079a5;
+
+    width: 50%;
+    padding: 5em 4em;
+align-items: center;    
+border-left-color: #0079a5;
     border-left-width: 5%;
     border-left-style: solid;
     background-color: white;
@@ -46,4 +62,27 @@
 	left:4%;
 	background-color: #036588;
 	clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+label{
+    margin: 0 !important;
+}
+
+@media screen and (max-width:600px){
+
+    .main-container-form{
+    display: flex;
+        flex-direction: column;
+}
+.contact__form{
+
+    width: 100%;
+    padding: 1em 4em;
+    align-items: center;    
+    border-top-color: #0079a5;
+    border-left: none;
+    border-top-width: 5%;
+    border-top-style: solid;
+    background-color: white;
+}
 }

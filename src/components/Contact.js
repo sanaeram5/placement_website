@@ -9,30 +9,30 @@ function Faq() {
     return (
         <>
           <section className="container">
-            <PageHeader page="PLACEMENT TEAM"/>
+            <PageHeader page="CONTACT US"/>
           </section>
-          <div className="container-fluid contact__container">
+          <div className="contact__container">
               <div className=" contact__card ">
-                    <div className="row">
-                      <div className="col-md-6 col-xs-12">
+                    <div className="main-container-form">
+                      <div className="image-container ">
                         <img src={contactImage} alt="" width="100%" height="100%" />
                       </div>
-                      <div className="col-md-6 col-xs-12 contact__form ">
-                        <div className="container pt-2 pl-5">
+                      <div className="contact__form ">
+                        <div className="form-group ">
                           <form action="https://formsubmit.co/sanaeram5@gmail.com" method="POST">
-                            <div className="form-group">
-                              <label for="name">Name
-                                <input type="text" name="name" required style={{width:'160%'}}/>
-                              </label>
+                            <div className="">
+                              <label for="name">Name</label>
+                                <input type="text" name="name" required />
+                              
                             </div>
-                            <div className="form-group">
-                              <label for="email">E-mail
-                                <input type="email" name="email" required  style={{width:'160%'}}/>
-                              </label>
+                            <div className="">
+                              <label for="email">E-mail</label>
+                                <input type="email" name="email" required  />
+                              
                             </div>
-                            <div className="form-group">
+                            <div style={{marginBottom:"1em"}}>
                               <label for="message">Message
-                                <textarea name="message" style={{width:'160%',border:'none', borderBottom:'1px solid gray'}}></textarea>
+                                <textarea name="message" style={{width:"150%",border:'none', borderBottom:'1px solid gray'}}></textarea>
                               </label>
                             </div>
                             <button className="btn btn-primary" type="submit" style={{width:'50%'}}>Send <span className="pl-1"><img src={send} width="22px"/></span></button>
@@ -42,7 +42,7 @@ function Faq() {
                     </div>
               </div>
           </div>
-          <div className="container-fluid faq__container d-flex justify-content-center">
+          <div className="container-fluid faq__container d-flex justify-content-center ">
             <div className="card faq__card pt-5 pb-5" style={{width:'60%'}}>
             <div class="faq">
             <Accordion defaultActiveKey="0" style={{width:'90%', paddingLeft:'10%', alignItems:'center'}}>
