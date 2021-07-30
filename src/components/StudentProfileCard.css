@@ -1,20 +1,20 @@
-.skill{
-    background: white;
-    padding:2% 5% 2% 5%;
-    margin:2%;
-    display: inline-block;
-    border-radius: 23px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.content{
+    font-weight: 500;
+    color:#272727;
 }
 
+@media (max-width: 768px)
+{
+    .card-coordinators{
+        width:300px;
+    }
+    .st_image{
+        display: flex;
+        justify-content: center;
+        /* padding-left: 50px; */
+    }
+    .content{
+        font-size:16px;
 
-.modal .modal-content{
-    padding: 0px !important;
-    border-radius: 0px 50px 0px 50px;
+    }
 }
-.modal-head{
-    background-color: blue;
-    color:white;
-    border-radius: 0px 50px 0px 50px;
-}
-

@@ -34,13 +34,12 @@ const Home=()=> {
         </div>
       </div>
       </div>
-      <div className="d-flex justify-content-between mid-home-container  " >
-        <div style={{width:"50%" ,paddingRight:"5vh"}} id="ghalib" >
-          <img className="img-fluid"
-           src={ghalib} />
+      <div className="row mid-home-container p-5" >
+        <div className="col-md-6 col-sm-12 col-xs-12" style={{paddingRight:"5vh"}} id="ghalib" >
+          <img className="img-fluid" src={ghalib}  />
         </div>
-        <div style={{width:"40%"}} className="d-flex flex-sm-column justify-content-between ">
-            <div style={{width:"70%"}} id="aboutHeading">
+        <div className="col-md-6 col-sm-12 col-xs-12">
+            <div style={{width:"70%",paddingLeft:'25px'}} id="aboutHeading">
               <h4>About</h4>
               <h4 >JAMIA MILLIA ISLAMIA</h4>
             </div>

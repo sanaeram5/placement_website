@@ -2,7 +2,7 @@
   .home-body{
     font-family: Arial;
     background-color: #ECFAFE;
-
+    overflow-x: hidden;
   }
   
   #hero {
@@ -61,6 +61,17 @@
     border: 17px solid #fff;
     box-shadow: 15px 15px 15px rgb(128, 128, 128, 0.15);
   }
+  @media (max-width:768px){
+    #ghalib img {
+      height: 280px;
+      width: 300px;
+      margin-bottom:20px;
+    }
+    .aboutButton{
+      margin-bottom: 50px;
+    }
+    
+  }
   #aboutHeading {
     background: linear-gradient(#0079a5, #143d61);
     color: #fff;
@@ -109,5 +120,103 @@ justify-content: center;
 .home-card-box{
   width: 30%;
 }
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 425px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
 
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
+@media screen and (max-width: 375px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
+@media screen and (max-width: 320px) {
+  .homestyleCard{
+    background-color: #ECFAFE;
+    padding:0 ;
+    position: relative;
+
+  }
+  #options {
+    background: url("../web_design/MainFinal/base.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  
+
+  .optionContainer {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+ }
+
+.home-card-box{
+  width: 100%;
+}
+#hero p{
+  font-size: 20px !important;
+}
+#hero h2{
+  font-size: 18px !important;
+}
+}
   
