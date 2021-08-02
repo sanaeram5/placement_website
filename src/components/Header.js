@@ -14,25 +14,7 @@ import {Collapse,
     DropdownItem,
     NavbarText} from "reactstrap";
     
-  // class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.toggle = this.toggle.bind(this);
-  //   this.onMouseEnter = this.onMouseEnter.bind(this);
-  //   this.onMouseLeave = this.onMouseLeave.bind(this);
-  //   this.state = {
-  //     dropdownOpen1: false
-  //   };
-  // }
-
-  // toggle(id) {
-  //  this.setState({[id]:!this.state[`${id}`]})
-  // }
-
- 
-
-  // render() {
+  
     const Header =()=>{
       const [dropDownVisibility,setdropDownVisibility]= useState(false);
       const[navIsOpen,setnavIsOpen]=useState(false);
