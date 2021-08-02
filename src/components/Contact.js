@@ -67,7 +67,7 @@ function Faq() {
                 Placement Brochure
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                  <Card.Body><a href="#">Download the Placement Brochure</a> of the Department of Computer Science, MCA Batch of 2022.</Card.Body>
+                  <Card.Body><a href="brochure/BrochureReborn.pdf" download>Download the Placement Brochure</a> of the Department of Computer Science, MCA Batch of 2022.</Card.Body>
                 </Accordion.Collapse>
               </Card>
               <Card>
