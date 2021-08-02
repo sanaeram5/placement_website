@@ -29,8 +29,8 @@ const StudentProfileCard = (student) => {
                             </div>  
 
                             <div>
-                                <p><span><img src={gmail} width="25px"/></span> {student.student.email}</p>
-                                <p><span><img src={phone} width="15px"/></span> {student.student.mobile}</p>
+                                <p><span><i className="fas fa-envelope "></i></span> {student.student.email}</p>
+                                <p><span><i className="fas fa-phone-alt"></i></span> {student.student.mobile}</p>
                             </div>
                     </div>
 

@@ -33,7 +33,7 @@ const StudentProfile = () => {
                     </div>
 
                     <div className="tab-content">
-                        <div id="home" className="tab-pane  active">
+                        <div id="home" className="tab-pane active">
 
                             <Row>
                                 {seniorData} 

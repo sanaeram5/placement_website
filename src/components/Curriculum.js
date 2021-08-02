@@ -17,14 +17,14 @@ const Curriculum = () => {
                 <Container>
                     <div className="nav_heads">
                         <ul class="nav nav-tabs" id="nav_head" >
-                            <li class="active tab_btn"><a className="btn " data-toggle="tab" href="#home">BATCH 2019-2022</a></li>
-                            <li className="tab_btn"><a className="btn " data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
+                            <li class="active tab_btn"><a className="btn t_btn" data-toggle="tab" href="#home">BATCH 2019-2022</a></li>
+                            <li className="tab_btn"><a className="btn t_btn" data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
                         </ul>
                     </div>
                 
 
                 <div className="tab-content mt-5">
-                    <div id="home" class="tab-pane fade in active">
+                    <div id="home" class="tab-pane active">
                         
                         <Row>
                             <Col md={6} sm={6} xs={12} className="d-flex justify-content-center">
