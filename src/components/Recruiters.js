@@ -15,11 +15,9 @@ const Recruiters = ()=> {
                 </div>
                 <div>
                     <div className="container-past">
-                    <div className="past-placements">
-                        <p>✣</p>
-                        <p>OUR PAST PLACEMENTS</p>
-                        <p>✣</p>
-                    </div>
+                        <PageHeader page="OUR PAST PLACEMENTS"/>
+                        
+                    
                 </div>
                
                 {data.past.map(res=>(

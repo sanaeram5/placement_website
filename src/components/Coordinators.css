@@ -8,7 +8,8 @@
     justify-content: center;
     align-items: center;
     color:#fff;
-    font-size: 20px;
+    font-size: 1.25em;
+    font-weight: 500;
     border-radius: 15px;
     white-space: wrap;
 }
@@ -27,5 +28,19 @@
 .box {
     width:100%;
     display: flex;
+
+}
+
+@media (max-width:720px)
+{
+    .coordinators-subheading{
+        width:65%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        /* margin-right: -10px; */
+        justify-content: center;
+    }
 
 }
