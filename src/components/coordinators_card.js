@@ -11,7 +11,7 @@ const CoordinatorsCard = props => {
 
             <div className="row no-gutters ">
 
-                <div className="col-md-12 col-xs-12 col-lg-4">
+                <div className="col-md-12 col-xs-12 col-lg-4 card-image">
                     <img className="rounded-rect" src={props.image} />
                 </div>
 

@@ -33,6 +33,10 @@
 
 @media (max-width:720px)
 {
+    .enclose{
+        display: flex;
+        justify-content: center;
+    }
     .coordinators-subheading{
         width:65%;
     }

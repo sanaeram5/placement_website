@@ -26,13 +26,14 @@ export default function Coordinators() {
 
                 <PageHeader page="PLACEMENT TEAM - BATCH 2022" />
 
-
-                <div className="coordinators-subheading p-5">PLACEMENT COORDINATOR</div>
-
+                <div className="enclose">
+                    <div className="coordinators-subheading p-5">PLACEMENT COORDINATOR</div>
+                </div>
                 <CoordinatorsCard image={image_Suraiya} name="Dr. Suraiya Jabin" num="+91 9810822834" email="sjabin@gmail.com" />
 
-                <div className="coordinators-subheading p-5">MAIN TEAM</div>
-
+                <div className="enclose">
+                    <div className="coordinators-subheading p-5">MAIN TEAM</div>
+                </div>
                 <div className="box">
                     <CoordinatorsCard image={image_Ariba} name="Ariba Ather" num="+91 78950 80552" email="aribaather46@gmail.com" />
                     <CoordinatorsCard image={image_Jawed} name="Jawed Alam" num="+91 77590 29463" email="zjaweds@gmail.com" />
@@ -42,8 +43,9 @@ export default function Coordinators() {
                     <CoordinatorsCard image={image_Mahima} name="Mahima Negi" num="+91 98107 22361" email="negi.mahima4@gmail.com" />
                 </div>
 
-                <div className="coordinators-subheading p-5">SUPPORT TEAM</div>
-
+                <div className="enclose">
+                    <div className="coordinators-subheading p-5">SUPPORT TEAM</div>
+                </div>
                 <div className="box">
                     <CoordinatorsCard image={image_Sana} name="Sana Eram" num="+91 89695 33304" email="sanaeram5@gmail.com" />
                     <CoordinatorsCard image={image_Jaanbaaz} name="Jaanbaaz Akhtar" num="+91 80029 33186" email="jaanbaazakhtar786@gmail.com" />
@@ -53,8 +55,9 @@ export default function Coordinators() {
                     <CoordinatorsCard image={image_Afnan} name="Shah Afnan Ansari" num="+91 9013074686" email="shahafnan786@gmail.com" />
                 </div>
 
-                <div className="coordinators-subheading p-5" >BROCHURE/PORTFOLIO & WEB DESIGN TEAM</div>
-
+                <div className="enclose">
+                    <div className="coordinators-subheading p-5" >BROCHURE/PORTFOLIO & WEB DESIGN TEAM</div>
+                </div>
                 <div className="box">
                     <CoordinatorsCard image={image_Bilal} name="Bilal Ahmad" num="+91 97585 68756" email="bilal0558@gmail.com" />
                     <CoordinatorsCard image={image_Guarav} name="Gaurav Jha" num="+91 95553 26403" email="gauravjha.2405@gmail.com" />

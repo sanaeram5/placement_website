@@ -64,3 +64,17 @@ background-color: green !important;
 
     margin-left: 50px;
 }
+
+@media (max-width:720px){
+    .card-coordinators{
+        width:210px;
+    }
+    .card-image{
+        display: flex;
+        justify-content: center;
+    }
+    .card-name, .card-num, .card-email{
+        margin: 15px;
+        padding:0px;
+    }
+}

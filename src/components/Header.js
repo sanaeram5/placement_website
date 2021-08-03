@@ -1,63 +1,48 @@
-import React,{useState} from "react";
-import './Header.css'
+import React, {useState} from "react";
+import './Header.css';
+import {Link} from "react-router-dom";
 import jamia from '../web_design/MainFinal/logo.png'
-import {Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText} from "reactstrap";
+
     
   
     const Header =()=>{
-      
+      const [isMobile, setIsMobile] = useState(false);
     return(
-         <div>
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
-            </nav>
-        </div>
-    );
+      <>
+        <nav className=" navbar navbar-lightstyle" style={{background:"#09526F"}}  expand="md">
+          <img className="logo" src={jamia} width="30px"/>
+          <ul className={isMobile? "nav-links-mobile":"nav-links"} onClick={()=>setIsMobile(false)} >
+            <Link to="/" className="nav-item">
+              <li>Home</li>
+            </Link>
+            <Link to="/about" className="nav-item">
+              <li>About</li>
+            </Link>
+            <Link to="/contact" className="nav-item">
+              <li>Contact Us</li>
+            </Link>
+            <Link to="/student_profile" className="nav-item">
+              <li>Student Profile</li>
+            </Link>
+            <Link to="/message" className="nav-item">
+              <li>Message Corner</li>
+            </Link>
+            <Link to="/recruiters" className="nav-item">
+              <li>Past Placement</li>
+            </Link>
+            <Link to="/coordinators" className="nav-item">
+              <li>Placement Team</li>
+            </Link>
+            <Link to="/curriculum" className="nav-item">
+              <li>Curriculum</li>
+            </Link>
+          </ul>
+          <button className="mobile-menu-icon" onClick={()=> setIsMobile(!isMobile)}>
+            {isMobile ? (<i className="fas fa-times"></i>) : (<i className="fas fa-bars"></i> )}
+          </button>
+        </nav>
+      </>
+      );
   }
 
 export default Header;
