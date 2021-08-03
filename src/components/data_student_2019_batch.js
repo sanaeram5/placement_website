@@ -20,9 +20,9 @@ import image_Fouziya from '../images/batch_2019-2022/Fouziya_Shaheen.jpg'
 
 import image_Ganesh from '../images/batch_2019-2022/Ganesh_Pandey.jpg'
 import image_Gaurav_Jha from '../images/batch_2019-2022/Gaurav_Jha.jpg'
-import image_Hamza from '../images/batch_2019-2022/Hamza_Badar.jpg'
+import image_Hamza from '../images/batch_2019-2022/Hamza_Badar.JPG'
 
-import image_Israil from '../images/batch_2019-2022/Israil_Ahmad.jpg'
+import image_Israil from '../images/batch_2019-2022/Israil_Ahmad.JPG'
 import image_Jaanbaaz from '../images/batch_2019-2022/Jaanbaaz_Akhtar.jpg'
 import image_Jawed from '../images/batch_2019-2022/Jawed_Alam.png'
 
@@ -31,7 +31,7 @@ import image_Maarif from '../images/batch_2019-2022/Maarif_Haque.jpg'
 import image_Maaz from '../images/batch_2019-2022/Maaz_Shamim.jpg'
 
 import image_Mahboob from '../images/batch_2019-2022/Mahboob_Hasan.jpeg'
-import image_Maria from '../images/batch_2019-2022/Maria_Anjum.jpg'
+import image_Maria from '../images/batch_2019-2022/Maria_Anjum.JPG'
 import image_Md_Kafil from '../images/batch_2019-2022/Md_Kafil.jpg'
 
 import image_Mohd_Iqan from '../images/batch_2019-2022/Mohd_Iqan.jpg'
