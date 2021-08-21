@@ -20,15 +20,15 @@ const Footer = ()=> {
 
                     <div className="footer-sub-containers">
                         <h3 className="footer-heading">Contact Us :</h3>
-                        <div className="footer-social-media"><img src={linkedin}className="social-icons"/><span>www.linkedin.com</span></div>
-                        <div  className="footer-social-media"><img src={insta} className="social-icons"></img><span>www.instagram.com</span></div>
-                        <div className="footer-social-media"><img src={email} className="social-icons"></img><span>placement_website@jmi.com</span></div>
+                        <div className="footer-social-media"><a style={{textDecoration:"none",color:"white"}} href="https://www.linkedin.com/company/mca-placement-cell" target="_blank"><img src={linkedin}className="social-icons"/><span>www.linkedin.com</span></a></div>
+                        {/*<div  className="footer-social-media"><img src={insta} className="social-icons"></img><span>www.instagram.com</span></div>*/}
+                        <div className="footer-social-media"><a style={{textDecoration:"none",color:"white"}} href="mailto:placement_website@jmi.com" target="_blank"><img src={email} className="social-icons"></img><span>placement_website@jmi.com</span></a></div>
                         
                     </div>
-                    <div className="footer-sub-containers"  >
+                    <div className="footer-sub-containers">
                         <h3 className="footer-heading">Placement Coordinators :</h3>
-                        <div><h5 className="footer-coordinator">Ariba Ather</h5><p style={{fontSize:"12px"}}>+91 78950 80552</p></div>
-                        <div><h5 className="footer-coordinator">Jawed Alam</h5><p style={{fontSize:"12px"}}>+91 77590 29463</p></div>
+                        <div><a style={{textDecoration:"none",color:"white"}} href="tel:+91 78950 80552"><h5 className="footer-coordinator">Ariba Ather</h5><p style={{fontSize:"12px"}}>+91 78950 80552</p></a></div>
+                        <div><a style={{textDecoration:"none",color:"white"}} href="tel:+91 77590 29463"><h5 className="footer-coordinator">Jawed Alam</h5><p style={{fontSize:"12px"}}>+91 77590 29463</p></a></div>
                                               
                     </div><div className="footer-sub-containers">
                         <h3 className="footer-heading">Location :</h3>
