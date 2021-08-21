@@ -15,9 +15,14 @@ import image_Azim from '../web_design/student_page/students_pics/Batch 2020-2022
 import image_Jaanbaaz from '../web_design/student_page/students_pics/JaanbaazAkhtar.jpg';
 import image_Sana from '../web_design/student_page/students_pics/sana eram.jpg';
 import image_Saurabh from  '../web_design/student_page/students_pics/Saurabh Dwivedi.jpg';
-import image_Afnan from  '../web_design/student_page/students_pics/Batch 2020-2022/Shah Afnan Ansari.jpg';
+// import image_Afnan from  '../web_design/student_page/students_pics/Batch 2020-2022/Shah Afnan Ansari.jpg';
 import image_Nikhil from  '../web_design/student_page/students_pics/Batch 2020-2022/Nikhil Joshi.jpg';
 
+
+
+
+import image_Mohit from  '../web_design/student_page/students_pics/Batch 2020-2022/Mohit_Dagar.jpg';
+import image_shashank from  '../web_design/student_page/students_pics/Batch 2020-2022/Shashank Bajpai.jpg';
 export default function Coordinators() {
     return (
         <>
@@ -52,8 +57,12 @@ export default function Coordinators() {
                 </div>
                 <div className="box">
                     <CoordinatorsCard image={image_Nikhil} name="Nikhil Joshi" num="+91 88878 94139" email="nikhiljoshi1609@gmail.com" />
-                    <CoordinatorsCard image={image_Afnan} name="Shah Afnan Ansari" num="+91 9013074686" email="shahafnan786@gmail.com" />
+                    <CoordinatorsCard image={image_Mohit} name="Mohit Dagar" num="+91 9953953168" email="mohitdagar27999@gmail.com" />
                 </div>
+
+                <div className="box">
+                    <CoordinatorsCard image={image_shashank} name="Shashank Bajpai" num="+91 97186 63433" email="shashankbajpai.11rpvv@gmail.com" />
+                    </div>
 
                 <div className="enclose">
                     <div className="coordinators-subheading p-5" >BROCHURE/PORTFOLIO & WEB DESIGN TEAM</div>

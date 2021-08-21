@@ -469,6 +469,7 @@ export default {
         // "mobile":"9953953168",
         "email":"mohitdagar27999@gmail.com",
         "image":image_mohit,
+    
         "highQual":"B.Sc. (H) Computer Science",
         "skills":"C++, SQL, Python, Java, Kotlin",
     },
