@@ -74,7 +74,7 @@ export default {
     {
     "id":"1",                
     "name":"Aamir Khan",
-    "mobile":"8447600439",
+    // "mobile":"8447600439",
     "email":"aamirkhan2671@gmail.com",
     "image":image_aamir,
     "highQual":"BCA",
@@ -83,7 +83,7 @@ export default {
     {
         "id":"2",                
         "name":"Abhinav Sharma",
-        "mobile":"9910420260",
+        // "mobile":"9910420260",
         "email":"abhinavsharma101010@gmail.com",
         "image":image_abhinav,
         "highQual":"BCA",
@@ -92,7 +92,7 @@ export default {
     {
         "id":"3",                
         "name":"Abhishek Gupta",
-        "mobile":"8178924657",
+        // "mobile":"8178924657",
         "email":"abhigupta8991@gmail.com",
         "image":image_abhishek,
         "highQual":"B.Sc. (H) Electronics",
@@ -101,7 +101,7 @@ export default {
     {
         "id":"4",                
         "name":"Adarsh Gupta",
-        "mobile":"8887938364",
+        // "mobile":"8887938364",
         "email":"adarsh888gupta@gmail.com",
         "image":image_Adarsh,
         "highQual":"BCA",
@@ -110,7 +110,7 @@ export default {
     {
         "id":"5",                
         "name":"Aftab Alam",
-        "mobile":"7007056652, 8874275667",
+        // "mobile":"7007056652, 8874275667",
         "email":"alam.aftab187@gmail.com",
         "image":image_Aftab,
         "highQual":"BCA",
@@ -119,7 +119,7 @@ export default {
     {
         "id":"6",                
         "name":"Ajay Kumar",
-        "mobile":"7860074346",
+        // "mobile":"7860074346",
         "email":"ajayblp0109@gmail.com",
         "image":image_Ajay,
         "highQual":"BCA",
@@ -128,7 +128,7 @@ export default {
     {
         "id":"7",                
         "name":"Anam Iqrar",
-        "mobile":"6398609612",
+        // "mobile":"6398609612",
         "email":"anam.iqrar2070@gmail.com",
         "image":image_Anam,
         "highQual":"BCA",
@@ -137,7 +137,7 @@ export default {
     {
         "id":"51",                
         "name":"Amit Kumar",
-        "mobile":"8447600439",
+        // "mobile":"8447600439",
         "email":"rajputt.amit.bca@gmail.com",
         "image":image_Amit,
         "highQual":"BCA",
@@ -147,7 +147,7 @@ export default {
     {
         "id":"8",                
         "name":"Ariba Ather",
-        "mobile":"7895080552",
+        // "mobile":"7895080552",
         "email":"aribaather46@gmail.com",
         "image":image_Ariba,
         "highQual":"BCA",
@@ -156,7 +156,7 @@ export default {
     {
         "id":"9",                
         "name":"Arman Raza",
-        "mobile":"9911209589",
+        // "mobile":"9911209589",
         "email":"arman.raza987@gmail.com",
         "image":image_Arman,
         "highQual":"B.Sc.",
@@ -165,7 +165,7 @@ export default {
     {
         "id":"10",                
         "name":"Azhar Beg",
-        "mobile":"'9058582425",
+        // "mobile":"'9058582425",
         "email":"azharsubhan10@gmail.com",
         "image":image_Azhar,
         "highQual":"BCA",
@@ -174,7 +174,7 @@ export default {
     {
         "id":"11",                
         "name":"Baby Muskan",
-        "mobile":"7004432456",
+        // "mobile":"7004432456",
         "email":"babymuskan002@gmail.com",
         "image":image_Baby_Muskan,
         "highQual":"B.Sc. (H) Computer Science",
@@ -183,7 +183,7 @@ export default {
     {
         "id":"12",                
         "name":"Bilal Ahmad",
-        "mobile":"9758568756",
+        // "mobile":"9758568756",
         "email":"bilal0558@gmail.com",
         "image":image_Bilal,
         "highQual":"BCA",
@@ -192,7 +192,7 @@ export default {
     {
         "id":"13",                
         "name":"Deepak Kumar",
-        "mobile":"9709739226",
+        // "mobile":"9709739226",
         "email":"mr.deepaknagvanshi@gmail.com",
         "image":image_Deepak,
         "highQual":"B.Sc.",
@@ -201,7 +201,7 @@ export default {
     {
         "id":"14",                
         "name":"Fouziya Shahin",
-        "mobile":"7017004677",
+        // "mobile":"7017004677",
         "email":"shaheenfouziya@gmail.com",
         "image":image_Fouziya,
         "highQual":"BCA",
@@ -210,7 +210,7 @@ export default {
     {
         "id":"15",                
         "name":"Ganesh Pandey",
-        "mobile":"8750242932",
+        // "mobile":"8750242932",
         "email":"pandey.ganesh12@gmail.com",
         "image":image_Ganesh,
         "highQual":"BCA",
@@ -219,7 +219,7 @@ export default {
     {
         "id":"16",                
         "name":"Gaurav Nath Jha",
-        "mobile":"7042022625",
+        // "mobile":"7042022625",
         "email":"gauravnath2010@gmail.com",
         "image":image_Gaurav_Jha,
         "highQual":"B.Sc. (H) Computer Science",
@@ -228,7 +228,7 @@ export default {
     {
         "id":"17",                
         "name":"Hamza Badar",
-        "mobile":"8936923203",
+        // "mobile":"8936923203",
         "email":"hamzabadar05@gmail.com",
         "image":image_Hamza,
         "highQual":"B.Sc. Mathematics and Millitary Studies",
@@ -237,7 +237,7 @@ export default {
     {
         "id":"49",                
         "name":"Israil Ahmad",
-        "mobile":"'07905685534",
+        // "mobile":"'07905685534",
         "email":"israilahmad777@gmail.com",
         "image":image_Israil,
         "highQual":"B.Sc. (Mathematics)",
@@ -247,7 +247,7 @@ export default {
     {
         "id":"18",                
         "name":"Jaanbaaz Akhtar",
-        "mobile":"8002933186",
+        // "mobile":"8002933186",
         "email":"jaanbaazakhtar786@gmail.com",
         "image":image_Jaanbaaz,
         "highQual":"B.Sc. (H) Computer Science",
@@ -256,7 +256,7 @@ export default {
     {
         "id":"19",                
         "name":"Jawed Alam",
-        "mobile":"7759029463",
+        // "mobile":"7759029463",
         "email":"zjaweds@gmail.com",
         "image":image_Jawed,
         "highQual":"B. Sc. (H) Physics, PGDCA",
@@ -265,7 +265,7 @@ export default {
     {
         "id":"20",                
         "name":"Kashif Iqbal",
-        "mobile":"6394287092",
+        // "mobile":"6394287092",
         "email":"kashifiqbalkhan30@gmail.com",
         "image":image_Kashif,
         "highQual":"BCA",
@@ -274,7 +274,7 @@ export default {
     {
         "id":"21",                
         "name":"Maarif Ul Haque",
-        "mobile":"9051561088",
+        // "mobile":"9051561088",
         "email":"maarif836@gmail.com",
         "image":image_Maarif,
         "highQual":"BACA",
@@ -283,7 +283,7 @@ export default {
     {
         "id":"22",                
         "name":"Maaz Shamim",
-        "mobile":"9410613216",
+        // "mobile":"9410613216",
         "email":"shamimmaaz@gmail.com",
         "image":image_Maaz,
         "highQual":"B.Sc. (H) Computer Science",
@@ -292,7 +292,7 @@ export default {
     {
         "id":"23",                
         "name":"Mahboob Hasan",
-        "mobile":"9889130531",
+        // "mobile":"9889130531",
         "email":"hasanmahboob-59@gmail.com",
         "image":image_Mahboob,
         "highQual":"B.Sc. (H) Mathematics",
@@ -301,7 +301,7 @@ export default {
     {
         "id":"24",                
         "name":"Maria Anjum",
-        "mobile":"9955763645",
+        // "mobile":"9955763645",
         "email":"mariaanjum470@gmail.com",
         "image":image_Maria,
         "highQual":"BCA",
@@ -310,7 +310,7 @@ export default {
     {
         "id":"25",                
         "name":"Md Kafil Parwez",
-        "mobile":"7503809631",
+        // "mobile":"7503809631",
         "email":"kafil6419@gmail.com",
         "image":image_Md_Kafil,
         "highQual":"B.Sc. (H) Mathematics",
@@ -319,7 +319,7 @@ export default {
     {
         "id":"26",                
         "name":"Mohammad Iqan",
-        "mobile":"7417640456",
+        // "mobile":"7417640456",
         "email":"mohdiqan123@gmail.com",
         "image":image_Mohd_Iqan,
         "highQual":"BCA",
@@ -328,7 +328,7 @@ export default {
     {
         "id":"27",                
         "name":"Mohammed Usama",
-        "mobile":"9580807860",
+        // "mobile":"9580807860",
         "email":"usama.muf@gmail.com",
         "image":image_Mohd_Usama,
         "highQual":"BCA",
@@ -337,7 +337,7 @@ export default {
     {
         "id":"28",                
         "name":"Mohd Shariq",
-        "mobile":"9555768089",
+        // "mobile":"9555768089",
         "email":"mohdshariq595@gmail.com",
         "image":image_Mohd_Shariq,
         "highQual":"B.Sc. (H) Computer Science",
@@ -346,7 +346,7 @@ export default {
     {
         "id":"29",                
         "name":"Mohd Uzair Khan",
-        "mobile":"8077094876",
+        // "mobile":"8077094876",
         "email":"mohduzairkhan4890@gmail.com",
         "image":image_Mohd_Uzair,
         "highQual":"B.Sc. (H) Computer Science",
@@ -355,7 +355,7 @@ export default {
     {
         "id":"30",                
         "name":"Nimish Thukral",
-        "mobile":"9999215507",
+        // "mobile":"9999215507",
         "email":"nimishthukral@gmail.com",
         "image":image_Nimish,
         "highQual":"B.Com (H)",
@@ -364,7 +364,7 @@ export default {
     {
         "id":"31",                
         "name":"Prateek Kumar",
-        "mobile":"9971795843",
+        // "mobile":"9971795843",
         "email":"prateek.kumar317@gmail.com",
         "image":image_Prateek,
         "highQual":"B.Sc. (H) Computer Science",
@@ -373,7 +373,7 @@ export default {
     {
         "id":"50",                
         "name":"Pushpendra Kumar",
-        "mobile":"8542922264",
+        // "mobile":"8542922264",
         "email":"pushpendragupta032@gmail.com",
         "image":image_Pushpender,
         "highQual":"B.Sc. (H) Mathematics",
@@ -382,7 +382,7 @@ export default {
     {
         "id":"32",                
         "name":"Rahima Khanam",
-        "mobile":"9667698318",
+        // "mobile":"9667698318",
         "email":"rahima.khanam45@gmail.com",
         "image":image_Rahima,
         "highQual":"BCA",
@@ -391,7 +391,7 @@ export default {
     {
         "id":"33",                
         "name":"Rahul Kumar",
-        "mobile":"8709791441",
+        // "mobile":"8709791441",
         "email":"rahulasher0@gmail.com",
         "image":image_Rahul,
         "highQual":"BCA",
@@ -400,7 +400,7 @@ export default {
     {
         "id":"34",                
         "name":"Rajan",
-        "mobile":"8273169008",
+        // "mobile":"8273169008",
         "email":"rkp33510@gmail.com",
         "image":image_Rajan,
         "highQual":"B.Sc",
@@ -409,7 +409,7 @@ export default {
     {
         "id":"35",                
         "name":"Sahil Sharma",
-        "mobile":"'8076191822",
+        // "mobile":"'8076191822",
         "email":"sahilsharma2405@gmail.com",
         "image":image_Sahil,
         "highQual":"B.Sc. (H) Physics",
@@ -418,7 +418,7 @@ export default {
     {
         "id":"36",                
         "name":"Sana Eram",
-        "mobile":"8969533304",
+        // "mobile":"8969533304",
         "email":"sanaeram5@gmail.com",
         "image":image_Sana,
         "highQual":"BCA",
@@ -427,7 +427,7 @@ export default {
     {
         "id":"37",                
         "name":"Sangam Mishra",
-        "mobile":"9695729831",
+        // "mobile":"9695729831",
         "email":"smishrax201@gmail.com",
         "image":image_Sangam,
         "highQual":"BCA",
@@ -436,7 +436,7 @@ export default {
     {
         "id":"38",                
         "name":"Saurabh Dwivedi",
-        "mobile":"7503905835",
+        // "mobile":"7503905835",
         "email":"sbhkaku7@gmail.com",
         "image":image_Saurabh,
         "highQual":"BCA",
@@ -445,7 +445,7 @@ export default {
     {
         "id":"39",                
         "name":"Shagufta Nigar",
-        "mobile":"9304038892",
+        // "mobile":"9304038892",
         "email":"shaguftanigar888@gmail.com",
         "image":image_Shagufta,
         "highQual":"B.Sc.",
@@ -454,7 +454,7 @@ export default {
     {
         "id":"40",                
         "name":"Shahid Raza",
-        "mobile":"",
+        // "mobile":"",
         "email":"shahid03786raza@gmail.com",
         "image":image_Shahid,
         "highQual":"B.Sc. Instrumentation",
@@ -463,7 +463,7 @@ export default {
     {
         "id":"41",                
         "name":"Shalu Agrawal",
-        "mobile":"7618601879",
+        // "mobile":"7618601879",
         "email":"shaluagrawal5113@gmail.com",
         "image":image_Shalu,
         "highQual":"B.Sc. (H) Mathematics",
@@ -472,7 +472,7 @@ export default {
     {
         "id":"42",                
         "name":"Shubham Gupta",
-        "mobile":"7011727041",
+        // "mobile":"7011727041",
         "email":"Shubhamg698@gmail.com",
         "image":image_Shubham_Gupta,
         "highQual":"B.Sc. (H) Computer Science",
@@ -481,7 +481,7 @@ export default {
     {
         "id":"43",                
         "name":"Shubham Skakya",
-        "mobile":"8077639837",
+        // "mobile":"8077639837",
         "email":"shubhamshakya140@gmail.com",
         "image":image_Shubham_Skakya,
         "highQual":"B.Sc. (Maths+CS)",
@@ -490,7 +490,7 @@ export default {
     {
         "id":"44",                
         "name":"Shuja Sajid",
-        "mobile":"9456668602",
+        // "mobile":"9456668602",
         "email":"shujasajid8@gmail.com",
         "image":image_Shaju,
         "highQual":"B.Sc. (H) Computer Science",
@@ -499,7 +499,7 @@ export default {
     {
         "id":"45",                
         "name":"Srijan Bhardwaj",
-        "mobile":"8287533255",
+        // "mobile":"8287533255",
         "email":"srijanbhardwaj52@gmail.com",
         "image":image_Srijan,
         "highQual":"B.Sc.",
@@ -508,7 +508,7 @@ export default {
     {
         "id":"46",                
         "name":"Subhan Ur Rehman",
-        "mobile":"8265833386",
+        // "mobile":"8265833386",
         "email":"subhansr100@gmail.com",
         "image":image_Subhan,
         "highQual":"B.Tech (Chemical Engineering)",
@@ -517,7 +517,7 @@ export default {
     {
         "id":"47",                
         "name":"Vishal Kumar Singh",
-        "mobile":"",
+        // "mobile":"",
         "email":"vishalsingh2341@gmail.com",
         "image":image_Vishal,
         "highQual":"B.Sc. (H) Mathematics",
@@ -526,7 +526,7 @@ export default {
     {
         "id":"48",                
         "name":"Zia Haider Naqvi",
-        "mobile":"9990766146",
+        // "mobile":"9990766146",
         "email":"zianaqvi7@gmail.com",
         "image":image_Zia,
         "highQual":"B.Sc. (H) Applied Mathematics",
