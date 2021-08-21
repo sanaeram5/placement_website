@@ -30,7 +30,7 @@ const StudentProfileCard = (student) => {
 
                             <div>
                                 <p><span><i className="fas fa-envelope "></i></span> {student.student.email}</p>
-                                <p><span><i className="fas fa-phone-alt"></i></span> {student.student.mobile}</p>
+                                {/*<p><span><i className="fas fa-phone-alt"></i></span> {student.student.mobile}</p>*/}
                             </div>
                     </div>
 

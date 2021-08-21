@@ -54,7 +54,7 @@ import image_kashif from '../images/batch_2020-2022/Mohd_Kashif.jpg'
 import image_numaan from '../images/batch_2020-2022/Mohd_Numaan_Alam.jpg'
 
 import image_saquib from '../images/batch_2020-2022/Mohd_Saquib_Ansari.jpg'
-import image_mohit from '../images/batch_2020-2022/Mohit_Dagar.jpg'
+import image_mohit from '../images/batch_2020-2022/Mohit_Dagar.jfif'
 import image_nehal from '../images/batch_2020-2022/Nehal_Ahmad.jpg'
 
 import image_nikhil from '../images/batch_2020-2022/Nikhil_Joshi.jpg'

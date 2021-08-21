@@ -21,7 +21,7 @@ import image_Nikhil from  '../web_design/student_page/students_pics/Batch 2020-2
 
 
 
-import image_Mohit from  '../web_design/student_page/students_pics/Batch 2020-2022/Mohit_Dagar.jpg';
+import image_Mohit from  '../images/batch_2020-2022/Mohit_Dagar.jfif';
 import image_shashank from  '../web_design/student_page/students_pics/Batch 2020-2022/Shashank Bajpai.jpg';
 export default function Coordinators() {
     return (
