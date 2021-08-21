@@ -2,7 +2,7 @@ import image_aakash from '../images/batch_2020-2022/Aakash_Upadhyay.png'
 import image_asmeen from "../images/batch_2020-2022/Aasmeen_Khan.jpg"
 import image_ahad from '../images/batch_2020-2022/Abdul_Ahad_Ahmad.jpg'
 
-import image_Abhishek from '../images/batch_2020-2022/Abhishek_Choudhary.jpg'
+import image_Abhishek from '../images/batch_2020-2022/Abhishek_Choudhary.JPG'
 import image_adeebul from '../images/batch_2020-2022/Adeebul_Ansar.jpg'
 import image_Ahmad_rashid from '../images/batch_2020-2022/Ahmad_Rashid_Faisal.jpg'
 
