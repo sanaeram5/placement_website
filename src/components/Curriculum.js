@@ -174,7 +174,7 @@ const Curriculum = () => {
                                         </Card.Title>
                                             <Card.Text >
                                                 <ul style={{justifyContent:'center'}}>
-                                                    <li>Digital Login and Computer Architecture</li>
+                                                    <li>Digital Logic and Computer Architecture</li>
                                                     <li>Discrete Mathematics</li>
                                                     <li>Algorithm and Program Design</li>
                                                     <li>Database Management Systems</li>
@@ -221,7 +221,7 @@ const Curriculum = () => {
                                             <Card.Text >
                                                 <ul style={{justifyContent:'center'}}>
                                                         <li>Data Communication and Networks</li>
-                                                        <li>Aritficial Intelligence</li>
+                                                        <li>Artficial Intelligence</li>
                                                         <li>Information Security</li>
                                                         <li>Analysis and Design of Algorithm</li>
                                                         <li>Elective-II</li>

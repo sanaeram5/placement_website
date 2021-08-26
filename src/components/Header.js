@@ -18,23 +18,23 @@ import jamia from '../web_design/MainFinal/logo.png'
             <Link to="/about" className="nav-item">
               <li>About</li>
             </Link>
-            <Link to="/contact" className="nav-item">
-              <li>Contact Us</li>
-            </Link>
             <Link to="/student_profile" className="nav-item">
               <li>Student Profile</li>
+            </Link>
+            <Link to="/curriculum" className="nav-item">
+              <li>Curriculum</li>
+            </Link>
+            <Link to="/recruiters" className="nav-item">
+              <li>Past Recruiters</li>
             </Link>
             <Link to="/message" className="nav-item">
               <li>Message Corner</li>
             </Link>
-            <Link to="/recruiters" className="nav-item">
-              <li>Past Placement</li>
-            </Link>
             <Link to="/coordinators" className="nav-item">
               <li>Placement Team</li>
             </Link>
-            <Link to="/curriculum" className="nav-item">
-              <li>Curriculum</li>
+            <Link to="/contact" className="nav-item">
+              <li>Contact Us</li>
             </Link>
           </ul>
           <button className="mobile-menu-icon" onClick={()=> setIsMobile(!isMobile)}>
