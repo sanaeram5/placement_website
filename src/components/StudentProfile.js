@@ -27,8 +27,8 @@ const StudentProfile = () => {
                 <Container>
                     <div className="nav_heads">
                         <ul className="nav nav-tabs" id="nav_head" >
-                            <li className="active tab_btn"><a className="btn t_btn active" data-toggle="tab" href="#home" >BATCH 2019-2022</a></li>
-                            <li className="tab_btn"><a className="btn t_btn" data-toggle="tab" href="#menu1">BATCH 2020-2022</a></li>
+                            <li className="active tab_btn"><a className="btn t_btn active" style={{fontSize:"1.1em"}} data-toggle="tab" href="#home"><div className="vert">BATCH 2019-2022</div></a></li>
+                            <li className="tab_btn"><a className="btn t_btn" style={{fontSize:"1.1em"}} data-toggle="tab" href="#menu1"><div className="vert">BATCH 2020-2022</div></a></li>
                         </ul>
                     </div>
 
