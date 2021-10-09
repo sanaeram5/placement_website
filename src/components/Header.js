@@ -18,6 +18,9 @@ import jamia from '../web_design/MainFinal/logo.png'
             <Link to="/about" className="nav-item">
               <li>About</li>
             </Link>
+            <Link to="/msc" className="nav-item">
+              <li>MSC Bioinformatics</li>
+            </Link>
             <Link to="/student_profile" className="nav-item">
               <li>Student Profile</li>
             </Link>

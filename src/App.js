@@ -13,6 +13,10 @@ import Message from './components/Message';
 import Recruiters from './components/Recruiters';
 import StudentProfile from './components/StudentProfile';
 import Curriculum from './components/Curriculum';
+import Msc from './components/Msc';
+import MscCurriculum from './components/MscCurriculum';
+import MscStudentProfile from './components/MscStudentProfile';
+import MscCoordinators from './components/MscCoordinators';
 
 const App=()=>{
     return(
@@ -20,14 +24,18 @@ const App=()=>{
         <Header/>
             <Route path="/" exact component={Home}/>
             <Route path="/about" exact component={About}/>
+            <Route path="/msc" exact component={Msc}/>
             <Route path="/contact" exact component={Contact}/>
             <Route path="/coordinators" exact component={Coordinators}/>
+            <Route path="/msccoordinators" exact component={MscCoordinators}/>
             <Route path="/faculty" exact component={Faculty}/>
             <Route path="/faq" exact component={Faq}/>
             <Route path="/message" exact component={Message}/>
             <Route path="/recruiters" exact component={Recruiters}/>
             <Route path="/student_profile" exact component={StudentProfile}/>
+            <Route path="/mscstudent_profile" exact component={MscStudentProfile}/>
             <Route path="/curriculum" exact component={Curriculum}/>
+            <Route path="/msccurriculum" exact component={MscCurriculum}/>
       </>
     )
 };
