@@ -27,7 +27,7 @@ const Footer = ()=> {
                     </div>
                     <div className="footer-sub-containers">
                         <h3 className="footer-heading">Placement Coordinators :</h3>
-                        <div><a style={{textDecoration:"none",color:"white"}} href="tel:+91 78950 80552"><h5 className="footer-coordinator">Ariba Ather</h5><p style={{fontSize:"12px"}}>+91 78950 80552</p></a></div>
+                        <div><a style={{textDecoration:"none",color:"white"}} href="tel:+91 78950 80552"><h5 className="footer-coordinator">Mahima Negi</h5><p style={{fontSize:"12px"}}>+91 98107 22361</p></a></div>
                         <div><a style={{textDecoration:"none",color:"white"}} href="tel:+91 77590 29463"><h5 className="footer-coordinator">Jawed Alam</h5><p style={{fontSize:"12px"}}>+91 77590 29463</p></a></div>
                                               
                     </div><div className="footer-sub-containers">
